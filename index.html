@@ -14,23 +14,17 @@ layout: default
 <div class="our-team section">
 	<h2>Our Team</h2>
 
+	{% for person in site.data.team %}
 	<div class="person">
-		<img src="/images/profile-placeholder.png">
+		{% assign mod = forloop.index0 | modulo:2 %}
+		{% if mod == 0 %} <img src="/images/{{ person.image }}"> {% endif %}
 		<div class="description">
-			<h3>Chris Sloey</h3>
-			<p>Former Chess Champion at Primary School. Chris hasn’t continued his love of intellectual pursuits and now codes for fun.</p>
-			<a class="social" href="http://twitter.com/chrisasaur">@chrisasaur</a>
-			<a class="social" href="mailto:chris@addjam.com">chris@addjam.com</a>
+			<h3>{{ person.name }}</h3>
+			<p>{{ person.description }}</p>
+			<a class="social" href="http://twitter.com/{{ person.twitter }}">@{{ person.twitter }}</a>
+			<a class="social" href="mailto:{{ person.email }}">{{ person.email }}</a>
 		</div>
+		{% unless mod == 0 %} <img src="/images/{{ person.image }}"> {% endunless %}
 	</div>
-
-	<div class="person">
-		<div class="description">
-			<h3>Michael Hayes</h3>
-			<p>Motorsport nut and fan of a nice Malt. Michael likes a good rant so be sure to checkout his thoughts on the Add Jam blog.</p>
-			<a class="social" href="http://twitter.com/_MDHayes">@_MDHayes</a>
-			<a class="social" href="mailto:michael@addjam.com">michael@addjam.com</a>
-		</div>
-		<img src="/images/profile-placeholder.png">
-	</div>
+	{% endfor %}
 </div>
