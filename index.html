@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="header">
-	<a class="hire-us" href="#">Hire Us<a>
+	<a class="hire-us button" href="#">Hire Us<a>
 	<img class="logo" src="/images/add-jam-logo.png">
 	<h1 class="statement">We create beautiful mobile products</h1>
 	<a class="down">
@@ -11,20 +11,53 @@ layout: default
 	</a>
 </div>
 
-<div class="our-team section">
-	<h2>Our Team</h2>
+<div class="our-team">
+	<div class="section">
+		<h2>Our Team</h2>
 
-	{% for person in site.data.team %}
-	<div class="person">
-		{% assign mod = forloop.index0 | modulo:2 %}
-		{% if mod == 0 %} <img src="/images/{{ person.image }}"> {% endif %}
-		<div class="description">
-			<h3>{{ person.name }}</h3>
-			<p>{{ person.description }}</p>
-			<a class="social" href="http://twitter.com/{{ person.twitter }}">@{{ person.twitter }}</a>
-			<a class="social" href="mailto:{{ person.email }}">{{ person.email }}</a>
+		{% for person in site.data.team %}
+		<div class="person">
+			{% assign mod = forloop.index0 | modulo:2 %}
+			{% if mod == 0 %} 
+				<div class='image'>
+					<img src="/images/{{ person.image }}">
+				</div>
+			{% endif %}
+			<div class="description">
+				<h3>{{ person.name }}</h3>
+				<p>{{ person.description }}</p>
+				<a class="social" href="http://twitter.com/{{ person.twitter }}">@{{ person.twitter }}</a>
+				<a class="social" href="mailto:{{ person.email }}">{{ person.email }}</a>
+			</div>
+			{% unless mod == 0 %} 
+				<div class='image odd'>
+					<img src="/images/{{ person.image }}">
+				</div>
+			{% endunless %}
 		</div>
-		{% unless mod == 0 %} <img src="/images/{{ person.image }}"> {% endunless %}
+		{% endfor %}
 	</div>
-	{% endfor %}
+</div>
+
+<div class="what-we-make">
+	<div class="section">
+		<h2>What We Make</h2>
+
+		<p>
+			With our highly skilled and capable team we develop products for mobile (and occasianally the web). We use a range of technologies such as Swift, Objective-C and Java to make the right product for the job.
+		</p>
+
+		<p>
+			We also love contributing to the open source community. Feel free to use our projects in your work (we love hearing how) or feel free to submit a pull request.
+		</p>
+
+		<div class="nav">
+			<a href="#" class="button">Products</a>
+			<a href="#" class="button">Client Case Studies</a>
+			<a href="#" class="button">Open Source</a>
+		</div>
+
+		<img src="/images/ipad-iphone-icon.png">
+	</div>
+
 </div>

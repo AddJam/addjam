@@ -2,9 +2,6 @@
 ---
 @charset "utf-8";
 
-$green: rgb(142,222,142);
-$red: rgb(225,70,88);
-$blue: rgb(74,144,226);
 $brand-color: rgb(81,163,182);
 $separator-color: rgb(214,214,214);
 $dark-color: rgb(79,88,101);
@@ -21,6 +18,7 @@ $light-color: rgb(255,255,255);
 
 body {
 	font-family: Helvetica Neue, Arial, Sans-Serif;
+	font-size: 1.1em;
 	color: $dark-color;
 }
 
@@ -53,12 +51,25 @@ h3 {
 	font-size: 2.2em;
 }
 
+.nav {
+	display: block;
+}
+
+.button {
+	display: inline-block;
+	border: 2px solid $light-color;
+	border-radius: 6px;
+	padding: 15px 20px;
+	color: $light-color;
+}
+
 .statement {
 	text-align: center;
 	text-transform: uppercase;
 }
 
 .header {
+	@include span-columns(12 of 12);
 	min-height: 650px;
 	height: 100%;
 	padding-top: 100px;
@@ -71,10 +82,7 @@ h3 {
 		top: 20px;
 		right: 30px;
 		font-size: 1.9em;
-		color: $light-color;
 		padding: 10px 16px;
-		border: 2px solid $light-color;
-		border-radius: 6px;
 	}
 
 	.logo {
@@ -102,7 +110,9 @@ h3 {
 }
 
 .section {
-	margin: 50px 0;
+	@include span-columns(8 of 12);
+	@include shift(2);
+	padding: 50px 0;
 
 	h2 {
 		text-align: center;
@@ -111,15 +121,19 @@ h3 {
 }
 
 .person {
-	@include span-columns(6 of 12);
-	@include shift(3);
+	@include span-columns(10 of 12);
+	@include shift(1);
 	margin-bottom: 50px;
 
-	img {
+	.image {
 		@include span-columns(3 of 8);
-		display: block;
-		width: 230px;
-		height: 230px;
+
+		img {
+			display: block;
+			width: 230px;
+			height: 230px;
+			margin: 0 auto;
+		}
 	}
 
 	.description {
@@ -128,6 +142,41 @@ h3 {
 			color: $dark-link-color;
 			display: block;
 		}
+	}
+}
+
+.what-we-make {
+	@include span-columns(12 of 12);
+	background-color: $dark-color;
+	color: $light-color;
+
+	p {
+		@include span-columns(8 of 12);
+		@include shift(2);
+		text-align: center;
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+
+	.nav {
+		@include span-columns(12 of 12);
+		margin: 30px 0 60px 0;
+		text-align: center;
+
+		.button {
+			margin-right: 40px;
+			text-transform: uppercase;
+		}
+
+		.button:last-child {
+			margin-right: 0;
+		}
+	}
+
+	img {
+		display: block;
+		margin: 0 auto;
+		width: 380px;
 	}
 }
 
