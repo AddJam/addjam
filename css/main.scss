@@ -7,7 +7,9 @@ $red: rgb(225,70,88);
 $blue: rgb(74,144,226);
 $brand-color: rgb(81,163,182);
 $separator-color: rgb(214,214,214);
-$text-color: rgb(79,88,101);
+$dark-color: rgb(79,88,101);
+$dark-link-color: darken($dark-color, 25);
+$light-color: rgb(255,255,255);
 
 @import "normalize";
 @import "bourbon";
@@ -19,7 +21,7 @@ $text-color: rgb(79,88,101);
 
 body {
 	font-family: Helvetica Neue, Arial, Sans-Serif;
-	color: $text-color;
+	color: $dark-color;
 }
 
 html, body {
@@ -69,9 +71,9 @@ h3 {
 		top: 20px;
 		right: 30px;
 		font-size: 1.9em;
-		color: rgba(255,255,255,1);
+		color: $light-color;
 		padding: 10px 16px;
-		border: 2px solid rgba(255,255,255,1);
+		border: 2px solid $light-color;
 		border-radius: 6px;
 	}
 
@@ -84,7 +86,7 @@ h3 {
 
 	.statement {
 		margin-top: 60px;
-		color: rgba(255,255,255,1);
+		color: $light-color;
 	}
 
 	.down {
@@ -123,7 +125,7 @@ h3 {
 	.description {
 		@include span-columns(5 of 8);
 		a {
-			color: darken($text-color, 25);
+			color: $dark-link-color;
 			display: block;
 		}
 	}
