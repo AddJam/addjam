@@ -1,0 +1,8 @@
+title: Add Jam
+description: >
+  Words
+email: yo@addjam.com
+url: "http://addjam.com"
+twitter_username: addjam
+github_username: addjam
+gems: [bourbon, neat]
