@@ -17,6 +17,7 @@ $light-color: rgb(255,255,255);
 @import "neat";
 
 @import "home";
+@import "blog";
 
 * {
 	box-sizing: border-box;
@@ -34,6 +35,11 @@ html, body {
 
 a {
 	text-decoration: none;
+  color: $dark-link-color;
+}
+
+a:hover {
+  color: lighten($dark-link-color, 20);
 }
 
 h1, h2, h3 {

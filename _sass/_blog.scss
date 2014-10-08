@@ -1,0 +1,40 @@
+.blog .header {
+    width: 100%;
+    
+    img {
+        height: 200px;
+        display: block;
+        margin: 40px auto 20px auto;
+    }
+}
+
+.blog .posts {
+    @include span-columns(6 of 12);
+    @include shift(3);
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.blog .post {
+    @include span-columns(6 of 12);
+    @include shift(3);
+    margin-top: 20px;
+
+    .date, .author {
+        text-align: center;
+        width: 100%;
+    }
+
+    .author {
+        margin-bottom: 10px;
+    }
+}
+
+.blog .footer {
+    @include span-columns(12 of 12);
+    text-align: center;
+}
+
+.date {
+    color: lighten($dark-color, 30);
+}

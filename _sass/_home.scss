@@ -1,4 +1,4 @@
-.header {
+.home .header {
 	@include span-columns(12 of 12);
 	min-height: 650px;
 	height: 100%;
@@ -69,7 +69,6 @@
 	.description {
 		@include span-columns(5 of 8);
 		a {
-			color: $dark-link-color;
 			display: block;
 		}
 	}

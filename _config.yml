@@ -6,3 +6,12 @@ url: "http://addjam.com"
 twitter_username: addjam
 github_username: addjam
 gems: [bourbon, neat]
+paginate: 5
+paginate_path: "blog/page:num"
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "blog-post"
