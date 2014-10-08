@@ -49,7 +49,7 @@ h2 {
 }
 
 h3 {
-	font-size: 2.2em;
+	font-size: 1.4em;
 }
 
 .nav {
@@ -144,6 +144,11 @@ h3 {
 			display: block;
 		}
 	}
+
+	.name {
+		margin-top: 0;
+		font-size: 2.2em;
+	}
 }
 
 .what-we-make {
@@ -213,31 +218,41 @@ h3 {
 footer {
   @include span-columns(12 of 12);
   padding-top: 20px;
-  background-color: #e34051;
-  background-color: #e44151;
-  background-image: -webkit-linear-gradient(top, #e44151 0%, #ef252e 100%);
-  background-image: linear-gradient(to bottom,#e44151 0%, #ef252e 100%);
   display: block;
-  .title {
-    display: block;
-    margin: 0 auto;
-    @include span-columns(3 of 12);
+  background-color: rgba(227,64,81,1);
+  @include linear-gradient(top, rgba(228,65,81,1) 0%, rgba(239,37,46,1) 100%);
+  text-align: center;
+
+  .links {
+    @include span-columns(8 of 12);
+    @include shift(2);
+    color: $light-color;
+    margin-bottom: 50px;
   }
+
+  .column {
+    @include omega(4n);
+    margin-right: 50px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: text-top;
+  }
+
   .list {
     list-style-type: none;
     padding: 0;
+
+    li {
+    	padding-bottom: 5px;
+    }
   }
-  .links {
-    @include span-columns(10 of 12);
-    @include shift(1);
-    color: white;
-  }
-  .name{
+
+  .copyright {
+    @include span-columns(4 of 12);
+    @include shift(4);
     text-align: center;
     color: white;
     margin: 15px, 0, 10px, 0;
-    @include span-columns(4 of 12);
-    @include shift(4);
 	}
 }
 
