@@ -209,10 +209,34 @@ h3 {
 	}
 }
 
-
 footer {
-	@include span-columns(4 of 12);
-	@include shift(4);
-	text-align: center;
+  @include span-columns(12 of 12);
+  padding-top: 20px;
+  background-color: #e34051;
+  background-color: #e44151;
+  background-image: -webkit-linear-gradient(top, #e44151 0%, #ef252e 100%);
+  background-image: linear-gradient(to bottom,#e44151 0%, #ef252e 100%);
+  display: block;
+  .title {
+    display: block;
+    margin: 0 auto;
+    @include span-columns(3 of 12);
+  }
+  .list {
+    list-style-type: none;
+    padding: 0;
+  }
+  .links {
+    @include span-columns(10 of 12);
+    @include shift(1);
+    color: white;
+  }
+  .name{
+    text-align: center;
+    color: white;
+    margin: 15px, 0, 10px, 0;
+    @include span-columns(4 of 12);
+    @include shift(4);
+	}
 }
 
