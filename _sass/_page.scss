@@ -1,0 +1,70 @@
+.page-header {
+	@include span-columns(12 of 12);
+	min-height: 370px;
+	height: 65%;
+	padding-top: 70px;
+	position: relative;
+	@include brand-gradient;
+	text-align: center;
+
+	.hire-us {
+		position: absolute;
+		top: 20px;
+		right: 30px;
+		font-size: 1.9em;
+		padding: 10px 16px;
+	}
+
+	.logo {
+	  display: block;
+		margin: 0 auto;
+		width: 200;
+		height: 200px;
+	}
+
+	.title {
+		margin-top: 40px;
+		color: $light-color;
+	}
+}
+
+.contact-form{
+	@include span-columns(4 of 12);
+	@include shift(4);
+	margin-top: 40px;
+	margin-bottom: 40px;
+	.field{
+		p {
+    	color: $dark-color;
+    	margin: 10px 0 3px 0;
+    	font-size: 1.4em;
+    }
+    .aj-input{
+    	width: 100%;
+    	min-height: 40px;
+    	background: $form-background;
+    	border-radius: 5px;
+			border: 1px solid $light-color
+    }
+	}
+}
+
+.email-section {
+	@include span-columns(12 of 12);
+	background-color: $dark-color;
+	width:100%;
+
+	.content {
+		@include span-columns(4 of 12);
+		@include shift(4);
+		margin-top: 40px;
+		margin-bottom: 40px;
+		color: $light-color;
+		text-align: center;
+
+		.title {
+				text-transform: uppercase;
+				text-align: center;
+		}
+	}
+}

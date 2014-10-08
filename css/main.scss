@@ -7,6 +7,8 @@ $separator-color: rgb(214,214,214);
 $dark-color: rgb(79,88,101);
 $dark-link-color: darken($dark-color, 25);
 $light-color: rgb(255,255,255);
+$form-background: rgb(234,234,234);
+
 @mixin brand-gradient() {
 	background-color: rgba(227,64,81,1);
 	@include linear-gradient(top, rgba(228,65,81,1) 0%, rgba(239,37,46,1) 100%);
@@ -15,6 +17,8 @@ $light-color: rgb(255,255,255);
 @import "normalize";
 @import "bourbon";
 @import "neat";
+
+@import "page";
 
 * {
 	box-sizing: border-box;
