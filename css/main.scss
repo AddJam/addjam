@@ -17,7 +17,7 @@ $light-color: rgb(255,255,255);
 }
 
 body {
-	font-family: Helvetica Neue, Arial, Sans-Serif;
+	font-family: 'Lato', Helvetica Neue, Arial, Sans-Serif;
 	font-size: 1.1em;
 	color: $dark-color;
 }
@@ -31,6 +31,7 @@ a {
 }
 
 h1, h2, h3 {
+	font-family: 'Lato', sans-serif;
 	font-weight: normal;
 	margin: 0;
 }
