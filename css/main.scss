@@ -7,7 +7,7 @@ $separator-color: rgb(214,214,214);
 $dark-color: rgb(79,88,101);
 $dark-link-color: darken($dark-color, 25);
 $light-color: rgb(255,255,255);
-$form-background: rgb(234,234,234);
+$form-background: rgb(245,245,245);
 
 @mixin brand-gradient() {
 	background-color: rgba(227,64,81,1);

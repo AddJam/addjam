@@ -1,7 +1,6 @@
 .page-header {
 	@include span-columns(12 of 12);
-	min-height: 370px;
-	height: 65%;
+	height: 400px;
 	padding-top: 70px;
 	position: relative;
 	@include brand-gradient;
@@ -44,7 +43,7 @@
     	min-height: 40px;
     	background: $form-background;
     	border-radius: 5px;
-			border: 1px solid $light-color
+			border: 1px solid #979797
     }
 	}
 }
