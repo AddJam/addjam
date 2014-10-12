@@ -10,9 +10,9 @@ title: Client Case Studies
 			<img src="/images/{{project.logo}}" class="logo"/>
 			<p class="description">{{ project.description }}</p>
 			<ul class="links">
-				<li>{{ project.url }}</li>
-				<li>{{ project.itunes }}</li>
-				<li>{{ project.play }}</li>
+				<li><a href="{{ project.url }}">{{ project.url }}</a></li>
+				<li><a href="{{ project.itunes }}">{{ project.itunes }}</a></li>
+				<li><a href="{{ project.play }}">{{ project.play }}</a></li>
 			</ul>
 		</div>
 	{% endfor %}

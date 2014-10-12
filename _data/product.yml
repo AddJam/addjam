@@ -1,0 +1,9 @@
+- name: LoL Newsletter
+  description: Keep up to date with League of Legends. Free, weekly email and no spam.
+  url: http://lolnewsletter.com
+  logo: lolnewsletter.png
+
+- name: Free Champions
+  description: Get notified of the free champion changes as soon as they're live
+  url: http://freechampions.com
+  logo: freechampions.png
