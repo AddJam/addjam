@@ -111,6 +111,10 @@ footer {
     @include shift(2);
     color: $light-color;
     margin-bottom: 50px;
+
+   	a {
+   		color: $light-color;
+   	}
   }
 
   .column {
