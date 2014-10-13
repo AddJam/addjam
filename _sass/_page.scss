@@ -27,7 +27,7 @@
 	}
 }
 
-.contact-form{
+.contact-form {
 	@include span-columns(4 of 12);
 	@include shift(4);
 	margin-top: 40px;
@@ -81,9 +81,10 @@
 		.links {
 			@include span-columns(5 of 8);
 			@include shift(2);
-    	list-style-type: none;
-    	padding: 0;
-    	a {
+	    	list-style-type: none;
+	    	padding: 0;
+	    	
+	    	a {
 				color: $dark-link-color;
 				display: block;
 			}
