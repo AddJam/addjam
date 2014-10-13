@@ -6,11 +6,15 @@ title: Our Products
 	{% for product in site.data.products %}
 		<div class="case-study">
 			<h2 class="title">{{ product.name }}</h2>
-			<img src="/images/{{product.logo}}" class="logo"/>
-			<p class="description">{{ product.description }}</p>
-			<ul class="links">
-				<li><a href="{{ product.url }}">{{ product.url }}</a></li>
-			</ul>
+			<div class="image-col">
+				<a href="{{ product.url }}"><img src="/images/{{product.logo}}" class="logo"></a>
+			</div>
+			<div class="details-col">
+				<p class="description">{{ product.description }}</p>
+				<ul class="links">
+					<li><a href="{{ product.url }}">{{ product.url | split: "//" | last }}</a></li>
+				</ul>
+			</div>
 		</div>
 	{% endfor %}
 </div>
