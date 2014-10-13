@@ -26,8 +26,14 @@ layout: default
 			<div class="description">
 				<p class="name">{{ person.name }}</p>
 				<p>{{ person.description }}</p>
-				<a class="social" href="http://twitter.com/{{ person.twitter }}">@{{ person.twitter }}</a>
-				<a class="social" href="mailto:{{ person.email }}">{{ person.email }}</a>
+				<span class="social">
+					<img src="/images/twitter-icon.png">
+					<a href="http://twitter.com/{{ person.twitter }}">@{{ person.twitter }}</a>
+				</span>
+				<span class="social">
+					<img src="/images/email-icon.png">
+					<a href="mailto:{{ person.email }}">{{ person.email }}</a>
+				</span>
 			</div>
 			{% unless mod == 0 %} 
 				<div class='image odd'>

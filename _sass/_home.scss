@@ -78,6 +78,23 @@
 		margin-top: 0;
 		font-size: 2.2em;
 	}
+
+	.social {
+		@include span-columns(12 of 12);
+		display: block;
+		margin-bottom: 5px;
+
+		img {
+			display: inline-block;
+			width: 21px;
+			margin-right: 5px;
+			vertical-align: middle;
+		}
+
+		a {
+			display: inline-block;
+		}
+	}
 }
 
 .what-we-make {
