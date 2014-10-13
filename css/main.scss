@@ -84,12 +84,12 @@ h3 {
   color: darken($dark-color, 20);
 }
 
-.button.light {
+.light {
   border-color: transparentize($light-color, 0.2);
   color: transparentize($light-color, 0.14);
 }
 
-.button.light:hover {
+.light:hover {
   border-color: $light-color;
   color: $light-color;
 }
@@ -111,10 +111,6 @@ footer {
     @include shift(2);
     color: $light-color;
     margin-bottom: 50px;
-
-   	a {
-   		color: $light-color;
-   	}
   }
 
   .column {
@@ -131,6 +127,10 @@ footer {
 
     li {
     	padding-bottom: 5px;
+    }
+
+    a {
+      @extend .light;
     }
   }
 
