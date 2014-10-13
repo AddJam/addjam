@@ -3,8 +3,7 @@ layout: page
 title: Our Products
 ---
 <div class="client-case-studies">
-
-	{% for product in site.data.product %}
+	{% for product in site.data.products %}
 		<div class="case-study">
 			<h2 class="title">{{ product.name }}</h2>
 			<img src="/images/{{product.logo}}" class="logo"/>
