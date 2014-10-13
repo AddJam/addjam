@@ -1,6 +1,6 @@
 github: https://github.com/AddJam
 dashboard: http://jamboard.herokuapp.com
-blog: http://blog.addjam.com
+blog: "/blog"
 case-studies: "/client-case-studies"
 hire-us: "/hire-us"
 products: "/products"
