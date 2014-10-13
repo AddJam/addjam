@@ -103,7 +103,7 @@ h3 {
 
 footer {
   @include span-columns(12 of 12);
-  padding-top: 20px;
+  padding-top: 50px;
   display: block;
   @include brand-gradient;
   text-align: center;
