@@ -15,6 +15,13 @@ layout: blog
     </div>
   </div>
   {% endfor %}
+
+  {% unless paginator.posts %}
+  <div class="empty">
+    <h3>No posts here yet</h3>
+    <p>Check back soon!</p>
+  </div>
+  {% endunless %}
 </div>
 
 <!-- Pagination -->
