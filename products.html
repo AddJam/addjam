@@ -1,0 +1,25 @@
+---
+layout: page
+title: Our Products
+---
+<div class="client-case-studies">
+
+	{% for product in site.data.product %}
+		<div class="case-study">
+			<h2 class="title">{{ product.name }}</h2>
+			<img src="/images/{{product.logo}}" class="logo"/>
+			<p class="description">{{ product.description }}</p>
+			<ul class="links">
+				<li><a href="{{ product.url }}">{{ product.url }}</a></li>
+			</ul>
+		</div>
+	{% endfor %}
+</div>
+
+<div class="pre-footer">
+	<div class="content">
+		<h2 class="title">Like what you see?</h2>
+		<p>We love to partner with other companies and collaborate on products. Checkout out some of our client case studies to see what type of work we love to engage in.
+		<img src="/images/rocket.png">
+	</div>
+</div>
