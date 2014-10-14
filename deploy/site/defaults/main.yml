@@ -1,0 +1,8 @@
+---
+app_name: AddJam
+app_fqdn: addjam.com
+app_branch: master
+app_github_clone_url: git@github.com:AddJam/addjam.git
+app_cloned_path: /var/www/addjam.com
+user: deploy
+docker_port: 4000
