@@ -82,6 +82,7 @@
 
 	.image {
 		@include span-columns(3 of 8);
+		float: left;
 
 		img {
 			display: block;
@@ -92,8 +93,13 @@
 		}
 	}
 
+	.image.odd {
+		float: right;
+	}
+
 	.description {
 		@include span-columns(5 of 8);
+
 		a {
 			display: block;
 		}
@@ -118,6 +124,26 @@
 
 		a {
 			display: inline-block;
+		}
+	}
+
+	@include media($mobile) {
+		.image {
+			float: none;
+			@include span-columns(10 of 12);
+			@include shift(1);
+		}
+
+		.description {
+			@include span-columns(10 of 12);
+			@include shift(1);
+			text-align: justify;
+		}
+
+		.name {
+			margin-top: 20px;
+			margin-bottom: 0;
+			text-align: center;
 		}
 	}
 }
