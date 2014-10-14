@@ -2,6 +2,13 @@
 ---
 @charset "utf-8";
 
+// Breakpoints
+$mobile: max-width 767px;
+$tablet: min-width 768px max-width 991px;
+$desktop: min-width 992px max-width 1199px;
+$largedesktop: min-width 1200px;
+
+// Colours
 $brand-color: rgb(81,163,182);
 $separator-color: rgb(214,214,214);
 $dark-color: rgb(79,88,101);
@@ -14,10 +21,12 @@ $form-background: rgb(245,245,245);
 	@include linear-gradient(top, rgba(228,65,81,1) 0%, rgba(239,37,46,1) 100%);
 }
 
+// Libraries
 @import "normalize";
 @import "bourbon";
 @import "neat";
 
+// Our SCSS
 @import "home";
 @import "blog";
 @import "page";
@@ -59,6 +68,14 @@ h1, h2 {
 
 h1 {
 	font-size: 2.6em;
+
+  @include media($tablet) {
+    font-size: 2em;
+  }
+
+  @include media($mobile) {
+    font-size: 1.8em;
+  }
 }
 
 h2 {
@@ -113,6 +130,16 @@ footer {
     @include shift(2);
     color: $light-color;
     margin-bottom: 50px;
+
+    @include media($tablet) {
+      @include span-columns(12 of 12);
+      @include shift(0);
+    }
+
+    @include media($mobile) {
+      @include span-columns(12 of 12);
+      @include shift(0);
+    }
   }
 
   .column {
@@ -121,11 +148,22 @@ footer {
     display: inline-block;
     text-align: left;
     vertical-align: text-top;
+
+    @include media($mobile) {
+      @include omega(1n);
+      @include span-columns(8 of 12);
+      @include shift(2);
+      text-align: center;
+    }
   }
 
   .list {
     list-style-type: none;
     padding: 0;
+
+    @include media($mobile) {
+      margin-top: 7px;
+    }
 
     li {
     	padding-bottom: 5px;
