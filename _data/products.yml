@@ -7,3 +7,13 @@
   description: Get notified by email as soon as the League of Legends free champion rotation gets updated.
   url: http://freechampions.com
   logo: freechampions.png
+
+- name: RookieOven
+  description: Blog all about the Scottish tech scene. Montly Meetup in Glasgow.
+  url: http://rookieoven.com
+  logo: rookieoven.png
+
+- name: lol2048
+  description: Hugely popular 2048 variant. 16 millions games played and counting.
+  url: http://lol2048.com
+  logo: lol2048.png
