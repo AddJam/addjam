@@ -18,11 +18,14 @@ layout: default
 		{% for person in site.data.team %}
 		<div class="person">
 			{% assign mod = forloop.index0 | modulo:2 %}
-			{% if mod == 0 %} 
-				<div class='image'>
-					<img src="/images/{{ person.image }}">
-				</div>
+			{% if mod == 0 %}
+				{% assign image_class = "image" %}
+			{% else %}
+				{% assign image_class = "image odd" %}
 			{% endif %}
+			<div class='{{ image_class }}'>
+				<img src="/images/{{ person.image }}">
+			</div>
 			<div class="description">
 				<p class="name">{{ person.name }}</p>
 				<p>{{ person.description }}</p>
@@ -35,11 +38,6 @@ layout: default
 					<a href="mailto:{{ person.email }}">{{ person.email }}</a>
 				</span>
 			</div>
-			{% unless mod == 0 %} 
-				<div class='image odd'>
-					<img src="/images/{{ person.image }}">
-				</div>
-			{% endunless %}
 		</div>
 		{% endfor %}
 	</div>
