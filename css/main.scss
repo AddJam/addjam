@@ -183,7 +183,11 @@ footer {
     }
 
     li {
-    	padding-bottom: 5px;
+    	padding: 5px;
+
+      @include media($mobile) {
+        padding: 10px;
+      }
     }
 
     a {
