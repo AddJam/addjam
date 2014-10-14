@@ -1,8 +1,4 @@
 ---
-- name: Gather API Keys
-  hosts: local
-  vars:
-    slack_api_key: "{{ lookup('env', 'SLACK_API_KEY') }}"
 - name: Deploy AddJam.com
   hosts: addjam
   roles:
