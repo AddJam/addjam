@@ -2,10 +2,16 @@
 	@include span-columns(12 of 12);
 	min-height: 650px;
 	height: 100%;
-	padding-top: 100px;
+	padding: 100px;
+	margin-right: 0;
 	position: relative;
 	@include brand-gradient;
 	text-align: center;
+
+
+	@include media($mobile) {
+		padding: 10px;
+	}
 
 	.hire-us {
 		position: absolute;
@@ -13,6 +19,10 @@
 		right: 30px;
 		font-size: 1.9em;
 		padding: 10px 16px;
+
+		@include media($mobile) {
+			font-size: 1.4em;
+		}
 	}
 
 	.logo {
@@ -20,21 +30,29 @@
 		margin: 0 auto;
 		width: 310px;
 		height: 310px;
+
+		@include media($mobile) {
+			margin-top: 80px;
+		}
 	}
 
 	.statement {
 		margin-top: 60px;
 		color: $light-color;
+		margin-left: 40px;
+		margin-right: 40px;
 	}
 
 	.down {
 		position: absolute;
 		bottom: 50px;
 		display: inline-block;
+		text-align: center;
 
-		> img {
-			display: block;
-			margin: 0 auto;
+		img {
+			position: absolute;
+			width: 44px;
+			left: -22px;
 		}
 	}
 }
@@ -43,6 +61,21 @@
 	@include span-columns(8 of 12);
 	@include shift(2);
 	padding: 50px 0;
+
+	@include media($desktop) {
+		@include span-columns(10 of 12);
+		@include shift(1);
+	}
+
+	@include media($tablet) {
+		@include span-columns(10 of 12);
+		@include shift(1);
+	}
+
+	@include media($mobile) {
+		@include span-columns(12 of 12);
+		@include shift(0);
+	}
 
 	h2 {
 		text-align: center;
@@ -61,7 +94,7 @@
 		img {
 			display: block;
 			width: 230px;
-			height: 230px;
+			max-width: 100%;
 			margin: 0 auto;
 			border-radius: 115px;
 		}
@@ -118,10 +151,20 @@
 		.button {
 			margin-right: 40px;
 			text-transform: uppercase;
+
+			@include media($mobile) {
+				@include span-columns(8 of 12);
+				@include shift(2);
+				margin-bottom: 15px;
+			}
 		}
 
 		.button:last-child {
 			margin-right: 0;
+
+			@include media($mobile) {
+				margin-bottom: 0;
+			}
 		}
 	}
 
@@ -129,6 +172,7 @@
 		display: block;
 		margin: 0 auto;
 		width: 380px;
+		max-width: 90%;
 	}
 }
 
@@ -151,10 +195,20 @@
 		.button {
 			margin-right: 40px;
 			text-transform: uppercase;
+
+			@include media($mobile) {
+				@include span-columns(8 of 12);
+				@include shift(2);
+				margin-bottom: 15px;
+			}
 		}
 
 		.button:last-child {
 			margin-right: 0;
+
+			@include media($mobile) {
+				margin-bottom: 0;
+			}
 		}
 	}
 }
