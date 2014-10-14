@@ -30,14 +30,6 @@
     tag={{ app_branch }}
     nocache=yes
 
-- name: Remove old container
-  tags: run
-  docker: >
-    name={{ app_name }}-{{ git_repository.before }}
-    image={{ app_name }}:{{ app_branch }}
-    state=absent
-  when: git_repository.changed
-
 - name: Start app
   tags: run
   docker: >
@@ -56,6 +48,14 @@
   sudo: yes
   template: src=nginx.j2 dest=/etc/nginx/sites-enabled/{{ app_name }}
   notify: reload nginx
+
+- name: Remove old container
+  tags: run
+  docker: >
+    name={{ app_name }}-{{ git_repository.before }}
+    image={{ app_name }}:{{ app_branch }}
+    state=absent
+  when: git_repository.changed
 
 - name: Send deployment notification message via Slack
   local_action:

@@ -80,6 +80,10 @@ h1 {
 
 h2 {
 	font-size: 2.4em;
+
+  @include media($mobile) {
+      font-size: 2em;
+  }
 }
 
 h3 {
@@ -116,6 +120,18 @@ h3 {
 .statement {
 	text-align: center;
 	text-transform: uppercase;
+}
+
+.hire-us {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 1.9em;
+  padding: 10px 16px;
+
+  @include media($mobile) {
+    font-size: 1.4em;
+  }
 }
 
 footer {

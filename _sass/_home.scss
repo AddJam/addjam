@@ -13,18 +13,6 @@
 		padding: 10px;
 	}
 
-	.hire-us {
-		position: absolute;
-		top: 20px;
-		right: 30px;
-		font-size: 1.9em;
-		padding: 10px 16px;
-
-		@include media($mobile) {
-			font-size: 1.4em;
-		}
-	}
-
 	.logo {
 	    display: block;
 		margin: 0 auto;
