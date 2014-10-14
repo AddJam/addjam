@@ -1,13 +1,13 @@
 - name: Chris Sloey
   id: 1
   image: profile-placeholder.png
-  description: Former Chess Champion at Primary School. Chris hasn’t continued his love of intellectual pursuits and now codes for fun
+  description: Some say he see's the world in C, others say that's too high level and he actually see the world in binary but all we know is he codes for fun. Chris drives most of the open source contributions by Add Jam, you can find these on our github page.
   twitter: chrisasaur
   email: chris@addjam.com
 
 - name: Michael Hayes
   id: 2
   image: michael.png
-  description: Motorsport nut and fan of a nice Malt. Michael likes a good rant so be sure to checkout his thoughts on the Add Jam blog.
+  description: Motorsport fan and connoisseur of Malts. Michael likes a good rant so be sure to checkout his thoughts on the Add Jam blog. When he's not ranting there he'll be ranting on RookieOven about the Scottish tech scene.
   twitter: _MDHayes
   email: michael@addjam.com
