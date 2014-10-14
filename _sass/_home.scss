@@ -8,7 +8,6 @@
 	@include brand-gradient;
 	text-align: center;
 
-
 	@include media($mobile) {
 		padding: 10px;
 	}
@@ -29,6 +28,11 @@
 		color: $light-color;
 		margin-left: 40px;
 		margin-right: 40px;
+		
+		@include media($mobile) {
+			margin-left: 20px;
+			margin-right: 20px;
+		}
 	}
 
 	.down {
