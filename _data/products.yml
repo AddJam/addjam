@@ -1,3 +1,8 @@
+- name: RookieOven
+  description: Blog all about the Scottish tech scene. Monthly Meetup in Glasgow.
+  url: http://rookieoven.com
+  logo: rookieoven.png
+
 - name: LoL Newsletter
   description: Keep up to date with League of Legends. Free, weekly email and no spam.
   url: http://lolnewsletter.com
@@ -8,12 +13,7 @@
   url: http://freechampions.com
   logo: freechampions.png
 
-- name: RookieOven
-  description: Blog all about the Scottish tech scene. Montly Meetup in Glasgow.
-  url: http://rookieoven.com
-  logo: rookieoven.png
-
 - name: lol2048
-  description: Hugely popular 2048 variant. 16 millions games played and counting.
+  description: Hugely popular 2048 variant. 16 million games played and counting.
   url: http://lol2048.com
   logo: lol2048.png
