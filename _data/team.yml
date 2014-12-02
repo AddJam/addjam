@@ -1,13 +1,13 @@
 - name: Chris Sloey
   id: 1
   image: chris.png
-  description: The core of Add Jam is our team. Chris is the technical lead on our projects and has released apps on all major mobile platforms. Chris has also worked on large scale web applications built with Ruby on Rails and Node.js. A fan of eSports, Chris produces the weekly League of Legends Newsletter which is delivered to over 1500 individuals and made the insanely popular League of Legends themeed 2048 variant lol2048.
+  description: The core of Add Jam is our team. Chris is the technical lead on our projects and has released apps on all major mobile platforms. Chris has also worked on large scale web applications built with Ruby on Rails and Node.js. A fan of eSports, Chris produces the weekly League of Legends Newsletter.
   twitter: chrisasaur
   email: chris@addjam.com
 
 - name: Michael Hayes
   id: 2
   image: michael.png
-  description: The team has a wide range of expertise. Michael brings his skills in design and project mnagement to Add Jam as well as his background in Android and iOS development.  Michael is passionate about the Scottish tech community and runs the RookieOven blog and popular Meetup in Glasgow.
+  description: The team has a wide range of expertise. Michael brings his skills in design and project management to Add Jam as well as his background in Android and iOS development.  Michael is passionate about the Scottish tech community and runs the RookieOven blog and popular Meetup in Glasgow.
   twitter: _MDHayes
   email: michael@addjam.com
