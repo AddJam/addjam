@@ -2,7 +2,7 @@
 	@include span-columns(12 of 12);
 	margin-top: 40px;
 	margin-bottom: 40px;
-	
+
 	.case-study {
 		@include span-columns(8 of 12);
 		@include shift(2);
@@ -31,12 +31,11 @@
 		}
 		.links {
 			@include span-columns(5 of 8);
-			@include shift(2);
 	    	list-style-type: none;
 	    	padding: 0;
 
 	    	a {
-				color: $dark-link-color;
+				color: $dark-color;
 				display: block;
 			}
 		}
