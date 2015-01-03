@@ -10,13 +10,13 @@ title: Client Case Studies
 			<p class="description">{{ project.description }}</p>
 			<ul class="links">
 				{% if project.url %}
-					<li><a href="{{ project.url }}">Homepage</a></li>
+					<li><a href="{{ project.url }}"><img src="/images/web-icon.svg"> Homepage</a></li>
 				{% endif %}
 				{% if project.itunes %}
-					<li><a href="{{ project.itunes }}">iTunes App Store</a></li>
+					<li><a href="{{ project.itunes }}"><img src="/images/itunes-icon.svg"> iTunes App Store</a></li>
 				{% endif %}
 				{% if project.play %}
-					<li><a href="{{ project.play }}">Google Play Store</a></li>
+					<li><a href="{{ project.play }}"><img src="/images/android-icon.svg"> Google Play Store</a></li>
 				{% endif %}
 			</ul>
 		</div>

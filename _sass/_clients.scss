@@ -38,6 +38,11 @@
 				color: $dark-color;
 				display: block;
 			}
+			img {
+				display: inline;
+				height: 20px;
+				padding-top: 2px;
+			}
 		}
 	}
 }
