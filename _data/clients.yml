@@ -13,7 +13,8 @@
   logo: glasgow-cycling.png
 
 - name: Doors Open Day Glasgow
-  description: <p>Based on the Glasgow Cycling codebase, this iOS application was customised for the 2014 Doors Open Day weekend in Glasgow. New features include opening and closing times, booking information and site amenities information.</p><p>The app introduced many elements which found their way back into the main Glasgow Walking codebase. The most obvious example of this is our use of blur views to give the app depth in fitting with the overall iOS look and feel.</p><p>The app, in keeping with Glasgow Walking, will be easy to update and keep relevant for future years of Doors Open Day Glasgow</p>  itunes: https://itunes.apple.com/gb/app/doors-open-day-glasgow/id916171683?ls=1&mt=8
+  description: <p>Based on the Glasgow Cycling codebase, this iOS application was customised for the 2014 Doors Open Day weekend in Glasgow. New features include opening and closing times, booking information and site amenities information.</p><p>The app introduced many elements which found their way back into the main Glasgow Walking codebase. The most obvious example of this is our use of blur views to give the app depth in fitting with the overall iOS look and feel.</p><p>The app, in keeping with Glasgow Walking, will be easy to update and keep relevant for future years of Doors Open Day Glasgow</p>
+  itunes: https://itunes.apple.com/gb/app/doors-open-day-glasgow/id916171683?ls=1&mt=8
   play:
   url: http://glasgowdoorsopenday.com/news/happy-exploring-this-weekend/
   logo: doors-open-day-glasgow.png
