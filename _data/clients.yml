@@ -1,13 +1,19 @@
 - name: Future City Glasgow - Glasgow Walking
   description: <p>Add Jam delivered mobile applications in the Active Travel stream of the £24 million Technology Strategy Board funded Future City project. We developed Glasgow Walking for iOS and Android aimed at making information on city attractions accessible. </p><p>As little as 5% increase in activity from each citizen is estimated to save the NHS £60 million by reducing the risk of type 2 diabetes, heart disease and other avoidable illnesses. The Glasgow Walking app makes local heritage information easily accessible in the format of curated walks with the aim of getting citizens to tour their city and be more active.</p><p> The Glasgow Walking 'Admin area' acts as a single source for the citys heritage data and allows the council to update walks and push updates out to citizens and tourists. Therefore the information is easily kept up to date, relevant and useful.</p>
-  itunes:
+  itunes: https://itunes.apple.com/us/app/glasgow-walking/id930428468?mt=8
   play:
   url:
   logo: glasgow-walking.png
 
 - name: Future City Glasgow - Glasgow Cycling
   description: <p>Our second product as part of the Active Travel stream in the Future City project is Glasgow Cycling. Native on iOS and Android with an open API (rails), Glasgow Cycling aims to provide detailed and more accurate data on the utilisation of Glasgows cycling infrastructure.</p><p>Privacy is paramount with routes being trimmed at the start and end to ensure there is a 'fuzzy' privacy zone when routes are viewed. The data accessible through the API is anonymised </p>
-  itunes:
-  play:
-  url:
+  itunes: https://itunes.apple.com/us/app/glasgow-cycling/id930422838?mt=8
+  play: https://play.google.com/store/apps/details?id=com.fcd.glasgowcycling
+  url: http://glasgowcycling.com
   logo: glasgow-cycling.png
+
+- name: Doors Open Day Glasgow
+  description: <p>Based on the Glasgow Cycling codebase, this iOS application was customised for the 2014 Doors Open Day weekend in Glasgow. New features include opening and closing times, booking information and site amenities information.</p><p>The app introduced many elements which found their way back into the main Glasgow Walking codebase. The most obvious example of this is our use of blur views to give the app depth in fitting with the overall iOS look and feel.</p><p>The app, in keeping with Glasgow Walking, will be easy to update and keep relevant for future years of Doors Open Day Glasgow</p>  itunes: https://itunes.apple.com/gb/app/doors-open-day-glasgow/id916171683?ls=1&mt=8
+  play:
+  url: http://glasgowdoorsopenday.com/news/happy-exploring-this-weekend/
+  logo: doors-open-day-glasgow.png
