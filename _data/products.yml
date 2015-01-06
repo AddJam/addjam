@@ -1,19 +1,19 @@
 - name: RookieOven
-  description: Blog all about the Scottish tech scene. Monthly Meetup in Glasgow.
+  description: Creating a better startup community in Scotland. RookieOven aims to increase Scottish startups success. Monthly Meetup in Glasgow on the first Monday of each month.
   url: http://rookieoven.com
   logo: rookieoven.png
 
 - name: LoL Newsletter
-  description: Keep up to date with League of Legends. Free, weekly email and no spam.
+  description: Keep up to date with League of Legends. Pro scene, game updates, gameplay videos and announcements. Free, weekly email and no spam.
   url: http://lolnewsletter.com
   logo: lolnewsletter.png
 
 - name: Free Champions
-  description: Get notified by email as soon as the League of Legends free champion rotation gets updated.
+  description: Simple email service for League of Legends players. Get notified by email as soon as the League of Legends free champion rotation is available.
   url: http://freechampions.com
   logo: freechampions.png
 
 - name: lol2048
-  description: Hugely popular 2048 variant. 16 million games played and counting.
+  description: Hugely popular variant of the 2048 puzzle game. 20 million games played and counting - can you get the final tile?
   url: http://lol2048.com
   logo: lol2048.png

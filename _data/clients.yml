@@ -6,15 +6,15 @@
   logo: glasgow-walking.png
 
 - name: Future City Glasgow - Glasgow Cycling
-  description: <p>Our second product as part of the Active Travel stream in the Future City project is Glasgow Cycling. Native on iOS and Android with an open API (rails), Glasgow Cycling aims to provide detailed and more accurate data on the utilisation of Glasgows cycling infrastructure.</p><p>Privacy is paramount with routes being trimmed at the start and end to ensure there is a 'fuzzy' privacy zone when routes are viewed. The data accessible through the API is anonymised </p>
+  description: <p>Our second product as part of the Active Travel stream in the Future City project is Glasgow Cycling. Native on iOS and Android with an open API (rails), Glasgow Cycling aims to provide detailed and more accurate data on the utilisation of Glasgows cycling infrastructure.</p><p>With iOS as our lead platform we used lean methodologies and principles to iterate on the product throughout 2014. We worked closely with various stakeholders to ensure the product was safe, useful and empowering to the citizens of Glasgow. Privacy was highlighted as a prime concern of all stakeholders, learning through our processes led us to trimming the start and end of all routes to ensure there is a 'fuzzy' privacy zone when routes are viewed and we implemented several security measure to ensure data is safe. The data accessible through the API is anonymised but provides useful information on the cycling habits of Glasgow citizens</p>
   itunes: https://itunes.apple.com/us/app/glasgow-cycling/id930422838?mt=8
   play: https://play.google.com/store/apps/details?id=com.fcd.glasgowcycling
   url: http://glasgowcycling.com
   logo: glasgow-cycling.png
 
 - name: Doors Open Day Glasgow
-  description: <p>Based on the Glasgow Cycling codebase, this iOS application was customised for the 2014 Doors Open Day weekend in Glasgow. New features include opening and closing times, booking information and site amenities information.</p><p>The app introduced many elements which found their way back into the main Glasgow Walking codebase. The most obvious example of this is our use of blur views to give the app depth in fitting with the overall iOS look and feel.</p><p>The app, in keeping with Glasgow Walking, will be easy to update and keep relevant for future years of Doors Open Day Glasgow</p>
+  description: <p>Based on the Glasgow Cycling codebase, this iOS application was customised for the 2014 Doors Open Day weekend in Glasgow. New features include opening and closing times, booking information and site amenities information.</p><p>The app introduced many elements which found their way back into the main Glasgow Walking codebase. The most obvious example of this is our use of blur views to give the app depth in fitting with the overall iOS look and feel.</p><p>The app, in keeping with Glasgow Walking, will be easy to update and kept relevant for future years of Doors Open Day Glasgow</p>
   itunes: https://itunes.apple.com/gb/app/doors-open-day-glasgow/id916171683?ls=1&mt=8
   play:
-  url: http://glasgowdoorsopenday.com/news/happy-exploring-this-weekend/
+  url: http://glasgowdoorsopenday.com
   logo: doors-open-day-glasgow.png
