@@ -1,6 +1,6 @@
 .blog .header {
     @include span-columns(12 of 12);
-    
+
     img {
         height: 200px;
         display: block;
@@ -15,7 +15,7 @@
     margin-bottom: 100px;
 
     text-align: center;
-    
+
     p {
         text-align: justify;
     }
@@ -35,25 +35,23 @@
     @include span-columns(12 of 12);
     margin-top: 20px;
 
-    p, ul {
-        @include span-columns(6 of 12);
-        @include shift(3);
+    p, ul, h2{
+        width: 50%;
+        display: block;
+        margin: 20px auto;
 
         @include media($tablet) {
-            @include span-columns(8 of 12);
-            @include shift(2);
+            width: 75%;
         }
 
         @include media($mobile) {
-            @include span-columns(10 of 12);
-            @include shift(1);
+            width: 83.33%;
         }
     }
 
     img {
-        max-width: 80%;
-        margin: 0 auto;
-        display: block;
+        max-width: 120%;
+        margin-left: -10%;
     }
 
     .date, .author {
@@ -70,7 +68,7 @@
     @include span-columns(12 of 12);
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .date {
