@@ -47,7 +47,7 @@
   tags: run
   sudo: yes
   template: src=nginx.j2 dest=/etc/nginx/sites-enabled/{{ app_name }}
-  notify: reload nginx
+  notify: restart nginx
 
 - name: Remove old container
   tags: run
@@ -56,13 +56,3 @@
     image={{ app_name }}:{{ app_branch }}
     state=absent
   when: git_repository.changed
-
-- name: Send deployment notification message via Slack
-  local_action:
-    module: slack
-    domain: addjam.slack.com
-    token: "{{ lookup('env', 'SLACK_API_KEY') }}"
-    msg: "{{ app_name }} deploy completed"
-    channel: "#projects"
-    username: "Ansible on {{ inventory_hostname }}"
-    icon_emoji: ":shipit:"
