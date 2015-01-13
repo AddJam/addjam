@@ -15,7 +15,7 @@ Through 2014 the Future City Project was our main focus and source of income. We
 
 But out with the Future City Project Michael and I continued to work on other concepts and with more direction and drive than ever before. We were particularly interested in achieving a source of near passive income for the business and we identified eSports as an area filled with opportunities ripe for exploitation. To this end I started to curate the weekly League of Legends newsletter and we developed a network of complimentary products and services. The highest profile of these without doubt is LoL2048.
 
-Like most of the internet between March and April of 2014 we were both obsessed with getting 2048 in the puzzle game by Gabriele Cirulli. The code for the project was opened sourced and we saw the opportunity of creating a League of Legends themed variant. It went huge. Over 2 million uniques, 20 million games played and 1000 newsletter signups.
+Like most of the internet between March and April of 2014 we were both obsessed with getting 2048 in the puzzle game by Gabriele Cirulli. The code for the project was opened sourced and we saw the opportunity of creating a League of Legends themed variant. It went huge. Over 250,000 sessions in a day, 17 million games played and 1000 newsletter signups.
 
 As well as experimenting with ways to drive traffic and signups to our League of Legends network we started to explore what 'we' as a company should be. Obviously the end product is Add Jam and I think this leads to a key takeaway from my experiences over the past year. We got on with doing. We made money, we made mistake, we progressed. It wasn't until October that Add Jam had a website and brand identity but in the preceding 10 months we hadn't been idle. Progress beats perfection every time.
 
@@ -23,7 +23,7 @@ As well as experimenting with ways to drive traffic and signups to our League of
 
 So what will Add Jam be doing in 2015?
 
-![Fairfield CoWorking space Glasgow](/images/fairfield.jpg "Fairfield Blank Canvas")
+![Fairfield CoWorking space Glasgow](/images/blog/fairfield.jpg "Fairfield Blank Canvas")
 
 First on our list is to establish an office and working environment that will allow Add Jam to prosper. We think the path to achieving this lies with one of Michaels projects over the last few years, RookieOven. Michael has been working for years on establishing a better tech community in Scotland by blogging and running events, in 2015 this will move to a physical location with a dedicated space for the tech community of Glasgow.
 
