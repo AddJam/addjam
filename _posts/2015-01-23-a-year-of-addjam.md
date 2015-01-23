@@ -33,4 +33,4 @@ This year we move into our offices - Michael has been working on establishing a 
 
 Add Jam will keep working on client products, and keep moving towards earning more from our own products. Going forward we want to work with clients on products that excite us and give us the freedom we need to really show off our product development skills. We'd love to talk with you if you have a product we can work with you on.
 
-Lastly we're keen to help others. We know how tough it is to get start and the challenges people will face in their first year but if there's any way we can help or anything you would like us to expand on in our blog then [get in touch](mailto:yo@addjam.com "Hire Add Jam").
+Lastly, we're keen to help others. We know how tough it is to get started and some of the challenges people face in their first year. If there's any way we can help or anything you would like us to expand on in our blog then [get in touch](mailto:yo@addjam.com "Hire Add Jam").
