@@ -27,7 +27,7 @@ We've experimented with a number of other ways to grow the newsletter, some of w
 
 ##Another Year
 
-![Fairfield CoWorking space Glasgow](/images/fairfield.jpg "Fairfield Blank Canvas")
+![Fairfield CoWorking space Glasgow](/images/blog/fairfield.jpg "Fairfield Blank Canvas")
 
 This year we move into our offices - Michael has been working on establishing a better tech community in Glasgow for years and the next step is the [RookieOven](http://rookieoven.com) coworking space pictured above. We'll be moving there in just a couple of weeks with some amazing startups around us. Being surrounded by these startups will be a driving force to creating better products and learning more than ever.
 
