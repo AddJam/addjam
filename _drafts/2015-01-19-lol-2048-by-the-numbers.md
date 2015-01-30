@@ -19,11 +19,13 @@ This was simple - we deployed to GitHub pages. We submitted to the League of Leg
 
 As of today we have had over 3 million page views, 17 million games played and in over 180 countries.
 
-The amazing thing is we messed up! We rushed the game up without doing cross browser testing. With the result being the end game popup, telling users their score, was broken on good old IE. Crucially, our users/players didn't care. 
+The amazing thing is we messed up! We rushed the game up without doing cross browser testing. With the result being the end game popup, telling users their score, was broken on good old IE. Disaster right?
+
+Well actually, our users/players didn't care. 
 
 There's a famous adage in software development that if you're proud of the work you release you've released it too late. This oversight strikes us as the embodiment of that.
 
-We saw an opportunity and launched quickly (with an embarrassing oversight) but the most important thing is we executed. We didn't hold off until 'perfection'. It had little impact on users enjoyment and it no impact on growth.
+We had noticed an opportunity and launched quickly (granted, with an embarrassing oversight) but the most important thing is we executed. We didn't hold off until 'perfection'. It had little impact on users enjoyment and it no impact on growth.
 
 The site reached a peak of 273,999 sessions in a day and settled into a steady 13,000-16,000 sessions per day one month after launch.
 
