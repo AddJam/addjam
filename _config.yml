@@ -8,6 +8,9 @@ github_username: addjam
 gems: [bourbon, neat, jekyll-sitemap]
 paginate: 5
 paginate_path: "blog/page:num"
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 defaults:
   -
     scope:
