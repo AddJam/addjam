@@ -35,10 +35,29 @@
     @include span-columns(12 of 12);
     margin-top: 20px;
 
-    p, ul, h2{
-        width: 50%;
+    a {
+        color: #ff5371;
+    }
+
+    p, ul, h2, h3, h4, h5, pre, {
         display: block;
         margin: 20px auto;
+    }
+
+    h3, h4, h5 {
+        width: 45%;
+
+        @include media($tablet) {
+            width: 70%;
+        }
+
+        @include media($mobile) {
+            width: 80%;
+        }
+    }
+
+    p, ul, h2, pre {
+        width: 50%;
 
         @include media($tablet) {
             width: 75%;
@@ -47,6 +66,10 @@
         @include media($mobile) {
             width: 83.33%;
         }
+    }
+
+    h2 {
+        margin-top: 50px;
     }
 
     img {
@@ -61,6 +84,18 @@
 
     .author {
         margin-bottom: 10px;
+    }
+
+    pre {
+        background-color: #333;
+        padding: 10px;
+    }
+
+    p > code {
+        background-color: rgba(255, 53, 71, 0.1);
+        padding-left: 3px;
+        padding-right: 3px;
+        border-radius: 1px;
     }
 }
 
