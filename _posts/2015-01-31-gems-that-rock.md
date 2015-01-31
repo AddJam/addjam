@@ -10,7 +10,7 @@ We recently decided to build on this by creating a Rails template tailored to ou
 
 ![Jam Jar](/images/blog/jam-jar1.png "Jam Jar Logo")
 
-The Jam Jar is still very much a work in progress and we'll be talking about it more in a future post. Below are some of the gmes we love the most. I skipped out the more obvious ones like `rspec` or `factory_girls` but you can have a look at the full list on [Github](https://github.com/AddJam/jamjar). It would be really interesting to hear which gems you think we missed or disagree with, we're [@add_jam](https://twitter.com/add_jam) on Twitter.
+The Jam Jar is still very much a work in progress and we'll be talking about it more in a future post. Below are some of the gems we love the most. I skipped out the more obvious ones like `rspec` or `factory_girls` but you can have a look at the full list on [Github](https://github.com/AddJam/jamjar). It would be really interesting to hear which gems you think we missed or disagree with, we're [@add_jam](https://twitter.com/add_jam) on Twitter.
 
 ##Annotate
 
