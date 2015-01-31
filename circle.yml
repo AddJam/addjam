@@ -1,0 +1,27 @@
+general:
+    branches:
+        only:
+            - master
+machine:
+    ruby:
+        version: 2.1.5
+    services:
+        - docker
+dependencies:
+    cache_directories:
+        - "~/docker"
+    override:
+        - gem install mina
+        - docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
+        - if [[ -e ~/docker/image.tar ]]; then docker load -i ~/docker/image.tar; fi
+        - docker build -t addjam/www .
+        - mkdir -p ~/docker; docker save addjam/www > ~/docker/image.tar
+test:
+    override:
+        - echo "No tests"
+deployment:
+    production:
+        branch: master
+        commands:
+            - docker push addjam/www
+            - mina deploy
