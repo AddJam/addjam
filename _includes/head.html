@@ -29,7 +29,7 @@
 	<meta name="msapplication-square310x310logo" content="/images/tile-large.png"/>
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{{ site.description }}">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
 	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
