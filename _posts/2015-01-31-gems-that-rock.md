@@ -3,13 +3,11 @@ author_id: 1
 title: Gems that Rock
 ---
 
-Over the past year we've started many new rails projects. Each time we would experiment with diferent testing frameworks or other handy gems. We eventually settled on a stack that we use 90% of the time so it made sense to make a custom Rails template (cleverly named the 'Jam Jar'...get it?). The benefit being we can start a new Rails template customised to our workflow.
+Over the past year we've started many new rails projects. Each time we would experiment with different testing frameworks or  gems to improve our development workflow, eventually settling on a core set that we use 90% of the time. We recently decided to build on this by creating a Rails template tailored to our needs (cleverly named the 'Jam Jar'). Using this template means that new rails projects will start tailored to our workflow.
 
 ![Jam Jar](/images/blog/jam-jar1.png "Jam Jar Logo")
 
-The Jam Jar is still really a work in progress as we tweak it but we'll be talking more about the jam jar in a future post. It would be really interesting to hear which gems you think we missed or disagree with, we're [@add_jam](https://twitter.com/add_jam) on Twitter and the repository is on our [GitHub](https://github.com/AddJam/jamjar).
-
-These are some obivous gems that are well known and well established but what about the lesser known gems? Well we thought it would be worthwhile summarising the ones we decided to include in the template and what we use them for.
+The Jam Jar is still very much a work in progress and we'll be talking about it more in a future post. Below are some of the gmes we love the most. I skipped out the more obvious ones like `rspec` or `factory_girls` but you can have a look at the full list on [Github](https://github.com/AddJam/jamjar). It would be really interesting to hear which gems you think we missed or disagree with, we're [@add_jam](https://twitter.com/add_jam) on Twitter.
 
 ##Annotate
 
@@ -83,6 +81,6 @@ The returned json would only have the specified fields, skipping others like `cr
 
 This is the simplest solution we've come across for serialization. It's especially great if you're working with Ember, which has build in support for the json output of AMS through the `ActiveModelAdapter`.
 
-##What did we miss?
+##What else should we use?
 
-Well that's the lesser known gems in the Jam Jar but what else should we be using? I love hearing of new gems that can improve the development experience. Drop me <mailto:chris@addjam.com><an email>, [tweet me](http://twitter.com/chrisasaur) or better yet make a pull request for the [Jam Jar](https://github.com/AddJam/jamjar) and add the gem right in there.
+What gems do you love that aren't in the Jam Jar? Drop me [an email](mailto:chris@addjam.com), [tweet me](http://twitter.com/chrisasaur) or better yet make a pull request for the [Jam Jar](https://github.com/AddJam/jamjar).
