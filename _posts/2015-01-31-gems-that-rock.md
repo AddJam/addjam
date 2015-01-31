@@ -3,7 +3,9 @@ author_id: 1
 title: Gems that Rock
 ---
 
-Over the past year we've started many new rails projects. Each time we would experiment with different testing frameworks or  gems to improve our development workflow, eventually settling on a core set that we use 90% of the time. We recently decided to build on this by creating a Rails template tailored to our needs (cleverly named the 'Jam Jar'). Using this template means that new rails projects will start tailored to our workflow.
+Over the past year we've started many new rails projects. Each time we would experiment with different testing frameworks or  gems to improve our development workflow, eventually settling on a core set that we use 90% of the time.
+
+We recently decided to build on this by creating a Rails template tailored to our needs (cleverly named the 'Jam Jar'). Using this template means that new rails projects will start tailored to our workflow.
 
 ![Jam Jar](/images/blog/jam-jar1.png "Jam Jar Logo")
 
