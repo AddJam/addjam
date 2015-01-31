@@ -1,11 +1,17 @@
 FROM ruby:2.1.3
 MAINTAINER Add Jam <yo@addjam.com>
 
-WORKDIR /site
-EXPOSE 4000
+WORKDIR /code
+RUN apt-get update --fix-missing -yq
+
+# Install nginx
+RUN apt-get install -yq nginx
+RUN echo "daemon off;" >> /etc/nginx/nginx.conf
+RUN rm /etc/nginx/sites-enabled/default
+EXPOSE 80
+ADD deploy/nginx_vhost /etc/nginx/sites-enabled/add_jam
 
 # JS Runtime
-RUN apt-get update
 RUN apt-get install -yq nodejs
 
 # Cache bundle
@@ -13,6 +19,8 @@ ADD Gemfile Gemfile
 ADD Gemfile.lock Gemfile.lock
 RUN bundle install
 
-ADD . /site
+ADD . /code
 
-CMD ["jekyll", "serve"]
+RUN jekyll build
+
+CMD ["nginx"]
