@@ -1,7 +1,7 @@
 server {
   listen 80 default_server;
   server_name addjam.com;
-  root /site/_site;
+  root /code/_site;
   index index.html
   expires 1d;
 }
