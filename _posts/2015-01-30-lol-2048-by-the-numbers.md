@@ -1,11 +1,11 @@
 ---
 author_id: 2
-title: Lol 2048: By the numbers
+title: Lol 2048 - By the numbers
 ---
 In our last post we talked about how 2014 had been a massive year for Chris and I. One of the biggest successes in terms of eyeballs (granted not the most important metric) was without doubt our 2048 clone - [LoL 2048](http"//lol2048.com "LoL 2048 game").
 
 ##Creation
-In early 2014 Chris and I (like pretty much everyone on Hacker News) were addicted to the puzzle game [2048] (http://gabrielecirulli.github.io/2048/ "original 2048") by Gabriel Cirulli. 2048 was a weekend project by Gabriel inspired by Threes and 1024. The game is super with the the aim of combining numbered squares to reach the highest numbered tile. It was insanely addictive and most importantly open source.
+In early 2014 Chris and I (like pretty much everyone on Hacker News) were addicted to the puzzle game [2048] (http://gabrielecirulli.github.io/2048/ "original 2048") by Gabriel Cirulli. 2048 was a weekend project by Gabriel inspired by Threes and 1024. The game is super simple with the the aim of combining numbered squares to reach the highest numbered tile. It was insanely addictive and most importantly open source.
 
 Being open sourced under the MIT license lead to a tonne of clones, bots and other variants which fuelled its popularity. It was when playing one of the clones (an F1 version) I noticed an opportunity to create a League of Legends version that would support our fledgling League of Legends Newsletter.
 
@@ -15,7 +15,7 @@ So really LoL2048 is a clone of a clone of a clone. Not the most original, not t
 
 This was simple - we deployed to GitHub pages. We submitted to the League of Legends subreddit ([r/leagueoflegends](http://reddit.com/r/leagueoflegends)). It went huge!
 
-![LoL 2048 visitor numbers](/images/blog/lol2048-overall.jpg "LoL 2048 visitor numbers")
+![LoL 2048 visitor numbers](/images/blog/lol2048-overall.png "LoL 2048 visitor numbers")
 
 As of today we have had over 3 million page views and 17 million games played in over 180 countries.
 
@@ -33,7 +33,7 @@ The site reached a peak of 273,999 sessions in a day and settled into a steady 1
 
 We now had a site that consistently had traffic. What do we do with it?
 
-![LoL 2048 visitor numbers](/images/blog/lol2048-consistent.jpg "LoL 2048 visitor numbers")
+![LoL 2048 visitor numbers](/images/blog/lol2048-consistent.png "LoL 2048 visitor numbers")
 
 Our first port of call was to convert visitors into subscribers of our weekly newsletter service. This worked ok, we had a huge amount of signups (~2000) but unfortunately only a portion of them went though the necessary double opt-in stage (~500). 
 
