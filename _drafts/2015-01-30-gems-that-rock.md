@@ -3,9 +3,11 @@ author_id: 1
 title: Gems that Rock
 ---
 
-Recently we've been working on a Rails template (cleverly named the jam jar) to speed up getting started with new Rails projects. These are some of the gmems we decided to include in the template, I skipped out the more obvious ones like `rspec` or `factory_girls` but you can have a look at the [full list on github](https://github.com/AddJam/jamjar).
+Over the past year we've started many new rails projects. Each time we would experiment with diferent testing frameworks or other handy gems. We eventually settled on a stack that we use 90% of the time so it made sense to make a custom Rails template (cleverly named the 'jam jar'...get it?). The benefit being we can start a new Rails template customised to our workflow.
 
-We'll be talking more about the jam jar in a future post. It would be really interesting to hear which gems you think we missed or disagree with, we're [@add_jam](https://twitter.com/add_jam) on Twitter.
+The Jam Jar is still really a work in progress as we tweak it but we'll be talking more about the jam jar in a future post. It would be really interesting to hear which gems you think we missed or disagree with, we're [@add_jam](https://twitter.com/add_jam) on Twitter and the repository is on our [GitHub](https://github.com/AddJam/jamjar).
+
+These are some obivous gems that are well known and well established but what about the lesser known gems? Well we thought it would be worthwhile summarising the ones we decided to include in the template and what we use them for.
 
 ##Annotate
 
@@ -42,13 +44,13 @@ Another nice gem for development, `quiet_assets` mutes all of the log messages p
 ####**TL;DR** breakpoints!
 ####[Github](https://github.com/deivid-rodriguez/byebug)
 
-This one is indispensable - just put `byebug` anywhere in your code and you'll get access to the REPL when execution reaches that line. Byebug is super easy to start using and supports all of the commands you'd expect like stepping over lines and into functions.
+This one is indispensable! Just put `byebug` anywhere in your code and you'll get access to the REPL when execution reaches that line. Byebug is super easy to start using and supports all of the commands you'd expect like stepping over lines and into functions.
 
 ##Forgery
 ####**TL;DR** More than just lorem ipsum
 ####[Github](https://github.com/sevenwire/forgery)
 
-I only came across this gem recently but it's definitely one that should be useful to most projects. Forgery allows you to generate anything from lorem ipsum text of a specific length to addresses information, locations and personal information. We've been combining it with `factory_girls` to generate test models and for seeding our development database with reasonable values.
+I only came across this gem recently but it's definitely one that should be useful to most projects. Forgery allows you to generate anything from placeholder lorem ipsum text to addresses information, locations and personal information. We've been combining it with `factory_girls` to generate test models and for seeding our development database with reasonable values.
 
 ##Timecop
 ####**TL;DR** Time travel in your tests
@@ -78,3 +80,7 @@ render json: @person
 The returned json would only have the specified fields, skipping others like `created_at`, `updated_at`, and `email`.
 
 This is the simplest solution we've come across for serialization. It's especially great if you're working with Ember, which has build in support for the json output of AMS through the `ActiveModelAdapter`.
+
+##What did we miss?
+
+Well that's the lesser known gems in the Jam Jar but what else should we be using? I love hearing of new gems that can improve the development experience. Drop me <mailto:chris@addjam.com><an email>, [tweet me](http://twitter.com/chrisasaur) or better yet make a pull request for the [Jam Jar](https://github.com/AddJam/jamjar) and add the gem right in there.
