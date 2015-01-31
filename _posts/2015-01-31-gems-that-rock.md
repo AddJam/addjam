@@ -82,7 +82,7 @@ render json: @person
 
 The returned json would only have the specified fields, skipping others like `created_at`, `updated_at`, and `email`.
 
-This is the simplest solution we've come across for serialization. It's especially great if you're working with Ember, which has build in support for the json output of AMS through the `ActiveModelAdapter`.
+This is the simplest solution we've come across for serialization. It's especially great if you're working with Ember, which has built in support for the json output of AMS through the `ActiveModelAdapter`.
 
 ##What else should we use?
 
