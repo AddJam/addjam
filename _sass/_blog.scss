@@ -31,6 +31,20 @@
     }
 }
 
+.blog .summary:first-child {
+    padding-top: 0;
+}
+
+.blog .summary:last-child {
+    border-bottom: none;
+}
+
+.blog .summary {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid $separator-color;
+}
+
 .blog .post {
     @include span-columns(12 of 12);
     margin-top: 20px;
