@@ -1,4 +1,4 @@
-FROM ruby:2.1.3
+FROM ruby:2.1.5
 MAINTAINER Add Jam <yo@addjam.com>
 
 WORKDIR /code
