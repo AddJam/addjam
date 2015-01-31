@@ -3,7 +3,9 @@ author_id: 1
 title: Gems that Rock
 ---
 
-Over the past year we've started many new rails projects. Each time we would experiment with diferent testing frameworks or other handy gems. We eventually settled on a stack that we use 90% of the time so it made sense to make a custom Rails template (cleverly named the 'jam jar'...get it?). The benefit being we can start a new Rails template customised to our workflow.
+Over the past year we've started many new rails projects. Each time we would experiment with diferent testing frameworks or other handy gems. We eventually settled on a stack that we use 90% of the time so it made sense to make a custom Rails template (cleverly named the 'Jam Jar'...get it?). The benefit being we can start a new Rails template customised to our workflow.
+
+![Jam Jar](/images/blog/jam-jar1.png "Jam Jar Logo")
 
 The Jam Jar is still really a work in progress as we tweak it but we'll be talking more about the jam jar in a future post. It would be really interesting to hear which gems you think we missed or disagree with, we're [@add_jam](https://twitter.com/add_jam) on Twitter and the repository is on our [GitHub](https://github.com/AddJam/jamjar).
 
