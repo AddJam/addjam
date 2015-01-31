@@ -1,6 +1,7 @@
 ---
 author_id: 1
 title: Gems that Rock
+description: Some of the gems Add Jam love when creating new Rails Projects. They form the core of the Jam Jar rails template.
 ---
 
 Over the past year we've started many new rails projects. Each time we would experiment with different testing frameworks or  gems to improve our development workflow, eventually settling on a core set that we use 90% of the time.
