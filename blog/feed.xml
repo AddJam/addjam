@@ -10,8 +10,9 @@
 		{% for post in site.posts limit:10 %}
 			<item>
 				<title>{{ post.title | xml_escape }}</title>
-				{% if post.author.name %}
-					<dc:creator>{{ post.author.name | xml_escape }}</dc:creator>
+				{% if post.author_id %}
+					{% assign author = site.data.team | where: "id", post.author_id | first %}
+					<dc:creator>{{ author.name | xml_escape }}</dc:creator>
 				{% endif %}        
 				{% if post.excerpt %}
 					<description>{{ post.excerpt | xml_escape }}</description>
