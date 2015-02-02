@@ -4,4 +4,5 @@ server {
   root /code/_site;
   index index.html
   expires 1d;
+  error_page 404 /404.html;
 }
