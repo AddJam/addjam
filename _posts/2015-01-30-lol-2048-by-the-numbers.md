@@ -1,6 +1,7 @@
 ---
 author_id: 2
 title: Lol 2048 - By the numbers
+description: A review of LoL 2048 - our clone of 2048 by Gabriel Cirulli. Themed on the popular esport - League of Legends.
 ---
 In our last post we talked about how 2014 had been a massive year for Chris and I. One of the biggest successes in terms of eyeballs (granted not the most important metric) was without doubt our 2048 clone - [LoL 2048](http"//lol2048.com "LoL 2048 game").
 

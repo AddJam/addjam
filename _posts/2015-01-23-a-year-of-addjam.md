@@ -1,6 +1,7 @@
 ---
 author_id: 1
 title: A Year of Add Jam
+description: A review of our first year in business as Add Jam. From Future City Glasgow to the exciting RookieOven developments for 2015.
 ---
 
 Going from full time employment to founding Add Jam, the past year has been amazing for Michael and I. This is our story.

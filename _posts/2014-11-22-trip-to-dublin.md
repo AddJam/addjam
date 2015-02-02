@@ -1,6 +1,7 @@
 ---
 author_id: 2
 title: Our Trip to Dublin
+description: Add Jam went to the Dublin Web Summit in November 2015. Here's what we took away from the massive conference.
 ---
 Last month the Add Jam team hd the pleasure of going to the Dublin Web Summit through our RookieOven Project.
 
