@@ -50,12 +50,12 @@ html, body {
 	height: 100%;
 }
 
-a {
+a, .dark {
 	text-decoration: none;
   color: $dark-link-color;
 }
 
-a:hover {
+a:hover, .dark:hover {
   color: lighten($dark-link-color, 20);
 }
 
@@ -205,4 +205,3 @@ footer {
     margin-bottom: 25px;
   }
 }
-

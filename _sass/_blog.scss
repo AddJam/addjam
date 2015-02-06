@@ -201,11 +201,37 @@
     }
 }
 
-.blog .footer {
-    @include span-columns(12 of 12);
+.blog .blog-footer {
+    @include span-columns(6 of 12);
+    @include shift(3);
+
     text-align: center;
     margin-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid $separator-color;
+
+    @include media($mobile) {
+      @include span-columns(12 of 12);
+      @include shift(0);
+    }
+
+    @include media($tablet) {
+        @include span-columns(8 of 12);
+        @include shift(2);
+    }
+}
+
+.blog .footer {
+  background-color: $light-color;
+  background-image: none;
+
+  .copyright, .links {
+    color: $dark-color;
+  }
+
+  .list a {
+    @extend .dark;
+  }
 }
 
 .date {
