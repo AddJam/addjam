@@ -148,6 +148,7 @@
 
     h3, h4, h5 {
         width: 45%;
+        margin-top: 30px;
 
         @include media($tablet) {
             width: 70%;
