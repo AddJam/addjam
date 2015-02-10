@@ -32,7 +32,11 @@ Add Jam worked closely with the Active Travel lead, Mark Irwin, to identify our 
 
 With this in mind the interface for Glasgow Cycling had to be clean simple and streamlined. Using the working prototype and both qualitative and quantitative (analytics are essential) feedback we came to the final V2 design.
 
-![Glasgow Cycling V2](/images/blog/cycling-app-v2.png "Glasgow Cycling V2")
+<video autoplay loop>
+  <source src="/images/blog/ios-cycling-app.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  <img src="/images/blog/cycling-app-v2.png" title="Your browser does not support our video">
+</video>
 
 Starting a route? Easy. Big clear button in the middle and you start recording instantly. The profile page is clean, giving a general overview of 'you' and the ability to navigate. Our favourite aspect of this view is the pull-down weather 'Easter Egg' - an essential for Glasgows predictably unpredictable weather.
 
@@ -48,7 +52,11 @@ For the project we delivered native mobile applications, with iOS as our lead pl
 
 With the iOS app now on the App Store and being used daily we were getting data and information on usage. The learning from the iOS development journey was used to form a solid foundation for the Android app.
 
-![Glasgow Cycling Android](/images/blog/cycling-app-android.png "Glasgow Cycling Android")
+<video autoplay loop>
+  <source src="/images/blog/cycling-android.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  <img src="/images/blog/cycling-app-android.png" title="Your browser does not support our video">
+ </video>
 
 We went back to square one to ensure we could cater the experience for the platform. Subtle things like the button shapes and positions or the utilisation of the Action Bar overview menu for some functions that are upfront in the iOS UI.
 
@@ -67,8 +75,6 @@ This gives start and end areas and the time of day. From this we can see the flo
 Data is great but what we really need to do is turn it into information - i.e. data with meaning. Our first step in this was to expose API endpoints so that developers can access the data and build additional services off the data. This fits with the ethos of the Open Glasgow Project we were working alongside.
 
 Our next call was to develop a simple dashboard (very much a V1 just now). This visualises simple city statistics and means the city (the city being citizens, businesses and the council) can easily consume the information on how the city is performing.
-
-![Glasgow Cycling Dashboard](/images/blog/cycling-dashboard.png "Glasgow Cycling Dashboard")
 
 With our relationship with Glasgow City Council being on going we hope to improve the dashboard and find new useful ways to expose the data. For example we think a CSV export would empower Excel users to cut and slice the data.
 

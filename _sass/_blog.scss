@@ -158,6 +158,19 @@
         }
     }
 
+    video {
+        width: 100%;
+        text-align: center;
+
+        @include media($tablet) {
+            width: 75%;
+        }
+
+        @include media($mobile) {
+            width: 83.33%;
+        }
+    }
+
     p, ul, h2, pre {
         width: 50%;
 
