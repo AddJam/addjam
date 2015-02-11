@@ -3,7 +3,7 @@ author_id: 2
 title: Lol 2048 - By the numbers
 description: A review of LoL 2048 - our clone of 2048 by Gabriel Cirulli. Themed on the popular esport - League of Legends.
 ---
-In our last post we talked about how 2014 had been a massive year for Chris and I. One of the biggest successes in terms of eyeballs (granted not the most important metric) was without doubt our 2048 clone - [LoL 2048](http"//lol2048.com "LoL 2048 game").
+In our last post we talked about how 2014 had been a massive year for Chris and I. One of the biggest successes in terms of eyeballs (granted not the most important metric) was without doubt our 2048 clone - [LoL 2048](http://lol2048.com "LoL 2048 game").
 
 ##Creation
 In early 2014 Chris and I (like pretty much everyone on Hacker News) were addicted to the puzzle game [2048] (http://gabrielecirulli.github.io/2048/ "original 2048") by Gabriel Cirulli. 2048 was a weekend project by Gabriel inspired by Threes and 1024. The game is super simple with the aim of combining numbered squares to reach the highest numbered tile. It was insanely addictive and most importantly open source.
