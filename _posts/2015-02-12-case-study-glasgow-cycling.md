@@ -2,7 +2,7 @@
 author_id: 2
 title: Case Study - Glasgow Cycling
 ---
-Through 2014 Add Jam have delivered mobile applications for the Glasgow City Council Future City Project. Specifically in the Active Travel workstream. We developed two products - Glasgow Walking (which we will expand on in a future post) and Glagow Cycling.
+Through 2014 Add Jam have delivered mobile applications for the Glasgow City Council [Future City Project](http://open.glasgow.gov.uk). Specifically in the Active Travel workstream. We developed two products - Glasgow Walking (which we will expand on in a future post) and Glagow Cycling.
 
 ##Project Aims
 
@@ -18,7 +18,7 @@ With the power of modern smartphones we have a plethora of options for tracking 
 
 ##A 30% Product
 
-At Add Jam we believe in the Lean Startup methodology and mindset. We aim to get feedback and data from what we call a 30% product. Why? Well would you not rather have wasted 4 weeks making a 30% product than 4 months on a 100% product?
+At Add Jam we believe in the Lean Startup methodology and mindset. We aim to get feedback and data from what we call [a 30% product](http://blog.42floors.com/thirty-percent-feedback/). Why? Well would you not rather have wasted 4 weeks making a 30% product than 4 months on a 100% product?
 
 With this ethos, a stack of assumptions, and some initial requirements gathering, we created an API (using Ruby on Rails) and an iOS app to track, search and find routes in 4 weeks. Sure, V1 certainly wasn't pretty, but it was functional.
 
@@ -28,7 +28,7 @@ It was an invaluable step. It allowed us to learn - live from users and stakehol
 
 ##Iterating to a better place
 
-Add Jam worked closely with the Active Travel lead, Mark Irwin, to identify our user groups the app should be engaging. Mark was fast to identify the typical end users of similar products as middle aged men, head to toe in lycra, tearing down the road in an attempt to become king of the mountain. These cyclists and the 'type' of cycling they undertake is a drop in the ocean compared to the potential volume of cycling across a city's population - commuters, families, couriers, tourists etc etc.
+Add Jam worked closely with the Active Travel lead, [Mark Irwin](https://twitter.com/sdeglasgow), to identify the user groups the app should be engaging. Mark was fast to identify the typical end users of similar products as middle aged men, head to toe in lycra, tearing down the road in an attempt to become king of the mountain. These cyclists and the 'type' of cycling they undertake is a drop in the ocean compared to the potential volume of cycling across a city's population - commuters, families, couriers, tourists etc etc.
 
 With this in mind the interface for Glasgow Cycling had to be clean simple and streamlined. Using the working prototype and both qualitative and quantitative (analytics are essential) feedback we came to the final V2 design.
 
@@ -84,8 +84,8 @@ As of writing the reception of Glasgow Cycling has been positive. Using the iOS 
 
 Much better and more useable data than some clipboards.
 
-##Download Links
+###Download Links
 
-[iOS version](https://itunes.apple.com/us/app/glasgow-cycling/id930422838?mt=8)  
-[Android version](https://play.google.com/store/apps/details?id=com.fcd.glasgowcycling)  
-[Dashboard](http://glasgowcycling.com)  
+* [iOS version](https://itunes.apple.com/us/app/glasgow-cycling/id930422838?mt=8)  
+* [Android version](https://play.google.com/store/apps/details?id=com.fcd.glasgowcycling)  
+* [Dashboard](http://glasgowcycling.com)  
