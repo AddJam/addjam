@@ -83,3 +83,9 @@ With our relationship with Glasgow City Council being on going we hope to improv
 As of writing the reception of Glasgow Cycling has been positive. Using the iOS and Android apps the citizens of Glasgow recorded 1.4% of the distance to the moon in a little over 2 winter months. That's the equivalent of cycling to Budapest and back on bike.
 
 Much better and more useable data than some clipboards.
+
+##Download Links
+
+[iOS version](https://itunes.apple.com/us/app/glasgow-cycling/id930422838?mt=8)  
+[Android version](https://play.google.com/store/apps/details?id=com.fcd.glasgowcycling)  
+[Dashboard](http://glasgowcycling.com)  
