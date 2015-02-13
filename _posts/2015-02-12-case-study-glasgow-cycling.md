@@ -84,7 +84,7 @@ As of writing the reception of Glasgow Cycling has been positive. Using the iOS 
 
 Much better and more useable data than some clipboards.
 
-###Download Links
+###Links
 
 * [iOS version](https://itunes.apple.com/us/app/glasgow-cycling/id930422838?mt=8)  
 * [Android version](https://play.google.com/store/apps/details?id=com.fcd.glasgowcycling)  
