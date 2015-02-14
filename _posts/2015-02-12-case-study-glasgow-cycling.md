@@ -1,6 +1,7 @@
 ---
 author_id: 2
 title: Case Study - Glasgow Cycling
+description: A look at Glasgow Cycling a large scale mobile app delivered for the Glasgow Future City Project/Open Glasgow.
 ---
 Through 2014 Add Jam have delivered mobile applications for the Glasgow City Council [Future City Project](http://open.glasgow.gov.uk). Specifically in the Active Travel workstream. We developed two products - Glasgow Walking (which we will expand on in a future post) and Glagow Cycling.
 

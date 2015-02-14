@@ -1,6 +1,7 @@
 ---
 author_id: 2
 title: Getting Productive
+description: Tips from the Add Jam team on how to work productively as a team. Insights into some services we use.
 ---
 Over the past year we've worked hard at finding services that complement our ways of working that are effective and most importantly stick. It's common knowledge that services can have all the functionality in the world but if they don't fit into a workflow or way of working it's wasted effort. Here's a summary of the key services we use as a team.
 
