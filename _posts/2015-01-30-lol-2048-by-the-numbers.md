@@ -2,6 +2,12 @@
 author_id: 2
 title: Lol 2048 - By the numbers
 description: A review of LoL 2048 - our clone of 2048 by Gabriel Cirulli. Themed on the popular esport - League of Legends.
+tags:
+  - Growth
+  - Breakdown
+  - Retrospective
+  - Project
+  - League of Legends
 ---
 In our last post we talked about how 2014 had been a massive year for Chris and I. One of the biggest successes in terms of eyeballs (granted not the most important metric) was without doubt our 2048 clone - [LoL 2048](http://lol2048.com "LoL 2048 game").
 
@@ -22,7 +28,7 @@ As of today we have had over 3 million page views and 17 million games played in
 
 The amazing thing is we messed up! We rushed the game up without doing cross browser testing. With the result being the end game popup, telling users their score, was broken on good old IE. Disaster right?
 
-Well actually, our users/players didn't care. 
+Well actually, our users/players didn't care.
 
 There's a famous adage in software development that if you're proud of the work you release you've released it too late. This oversight strikes us as the embodiment of that.
 
@@ -36,13 +42,13 @@ We now had a site that consistently had traffic. What do we do with it?
 
 ![LoL 2048 visitor numbers](/images/blog/lol2048-consistent.png "LoL 2048 visitor numbers")
 
-Our first port of call was to convert visitors into subscribers of our weekly newsletter service. This worked ok, we had a huge amount of signups (~2000) but unfortunately only a portion of them went though the necessary double opt-in stage (~500). 
+Our first port of call was to convert visitors into subscribers of our weekly newsletter service. This worked ok, we had a huge amount of signups (~2000) but unfortunately only a portion of them went though the necessary double opt-in stage (~500).
 
 We used this influx of 'free' traffic as a chance to optimise signups and the language used in our communications. Yeah we made some mistakes here and perhaps didn't gain as many subscribers as we should but it was invaluable experience in experimenting and iterating.
 
 At this time we also switched from using Campaign Monitor to MailChimp as it gave more flexibility and the double opt-in began converting much better.
 
-We also experimented with the laziest way of making money on the web - adverts. We had little success. 
+We also experimented with the laziest way of making money on the web - adverts. We had little success.
 
 A large portion of our traffic was coming from Vietnam and Hong Kong. The advertising platforms we approached didn't value our traffic and the ones that did had such awful ad's they ruined the experience.
 
@@ -55,4 +61,3 @@ In summary LoL 2048 had crazy traffic and lead to over >1800 LoL Newsletter subs
 * Look for opportunities and execute, a wasted hour is better than a sore 'what if'.
 
 LoL2048 is still up and going strong. Jump on for a game and let us know your top score - [LoL2048](http://lol2048.com).
-

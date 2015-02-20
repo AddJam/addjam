@@ -2,6 +2,12 @@
 author_id: 2
 title: Our new friends
 description: Add Jam have a new office. We're founding members of the RookieOven coworking space in Glasgow. Here are our new friends.
+tags:
+  - Add Jam
+  - Business
+  - Office
+  - RookieOven
+  - Glasgow
 ---
 We are passionate about our local tech community. Glasgow is an amazing city with an astonishing history of innovation but we feel recently the city has lost its way in regards to tech. But that's all going to change with the new RookieOven coworking space.
 
@@ -12,7 +18,7 @@ The space is in the stunning [Fairfield Shipyard in Govan](http://en.wikipedia.o
 ##Rawtech
 ![Rawtech](/images/blog/rawtech.png "Rawtech.io Python developers")
 
-Founded by Aaron Bassett, Rawtech specialise in web development (mainly backed by python). Aaron is well known in the Glasgow tech community having previously organised Popup Hack, mentored at Startup Weekend and spoken at most of the tech meetups in the city. 
+Founded by Aaron Bassett, Rawtech specialise in web development (mainly backed by python). Aaron is well known in the Glasgow tech community having previously organised Popup Hack, mentored at Startup Weekend and spoken at most of the tech meetups in the city.
 
 Currently working on an open source data platform called Kala. Rawtech are adding software engineering excellence and a love of rugby to the office.
 
@@ -23,7 +29,7 @@ Founded by photographer extraordinaire Ashley Baxter. Insurance By Jack aim to b
 
 As a single founder Ashley has done an amazing job brining Insurance By Jack to market but she also finds the time to run Insurance By Jack with amazing transparency.
 
-Ashley does this with weekly Q&A's, indepth case studies and excellent content on the Insurance By Jack blog. The blog is full of insight into her experiments and trials as she grows her business. 
+Ashley does this with weekly Q&A's, indepth case studies and excellent content on the Insurance By Jack blog. The blog is full of insight into her experiments and trials as she grows her business.
 
 ##[FarmGeek](http://farmer.io)
 ![FarmGeek](/images/blog/farmgeek.png "FarmGeek business management for farmers")

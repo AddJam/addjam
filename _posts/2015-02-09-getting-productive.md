@@ -2,6 +2,10 @@
 author_id: 2
 title: Getting Productive
 description: Tips from the Add Jam team on how to work productively as a team. Insights into some services we use.
+tags:
+  - Roundup
+  - Tools
+  - Business
 ---
 Over the past year we've worked hard at finding services that complement our ways of working that are effective and most importantly stick. It's common knowledge that services can have all the functionality in the world but if they don't fit into a workflow or way of working it's wasted effort. Here's a summary of the key services we use as a team.
 
@@ -25,7 +29,7 @@ These channels are then hooked up to other services giving clients the same visi
 ##[Github](https://github.com "GitHub homepage")
 ![Github](/images/blog/github-logo.png "GitHub logo")
 
-Remote repositories right? Well yeah, but it's also so much more. 
+Remote repositories right? Well yeah, but it's also so much more.
 
 ###Social Coding
 
@@ -50,7 +54,7 @@ It's free, easy to understand, has a mobile client and integrates with Slack. Mo
 
 We have project level boards for each project (client or internal product). This is hooked up to the relevant Slack channel and gives visibility across the organisation of when task are completed.
 
-This also gives contributors and clients 
+This also gives contributors and clients
 
 ###Getting Things Planned
 
@@ -81,4 +85,3 @@ There's no denying Dropbox is popular (apparently well in excess of 300 million 
 Our biggest piece of advice is do what works for you - experiment and give it a shot. But also it should be no surprise the services we use are market leaders and well established in their fields. What works for you will likely also work for others.
 
 With that in mind, hopefully the above will shine some light on how Add Jam works and help improve your work flow.
-

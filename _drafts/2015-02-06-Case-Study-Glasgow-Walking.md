@@ -1,6 +1,11 @@
 ---
 author_id: 2
-title: Case Study - Glasgow Walkingha
+title: Case Study - Glasgow Walking
+tags:
+  - Add Jam
+  - Business
+  - Case Study
+  - Retrospective
 ---
 Through 2014 Add Jam have delivered mobile applications for the Glasgow City Council Future City Project. Specifically in the Active Travel workstream. We developed two products - Glasgow Cycling (which we featured in a previous case study) and Glagow Walking.
 
@@ -26,12 +31,10 @@ If we do say so ourselves Glasgow Walking is a pleasure to use. We added in subt
 
 These additions in combination with the UI geared towards beautiful photography makes the app stand out in a what can be quite a dry subjet area in mobile apps.
 
-##iOS vs Android 
+##iOS vs Android
 
 Functionality wise the app has pretty much parity across iOS and Android. But being a native app (vs web based cross platform) there is a higher level of customisation we can to to ensure the experience is right for their respective platforms.
 
 So for example on iOS we make extensive use 'blur views' in keeping with the iOS look and feel that was introduced in iOS7. The blur view gives a sense of depth with the high res photography underpinning the view. Whereas on Android we use a custom dialog box to display the same data. This is a style that is more fitting on that platform.
 
 Another difference is in sharing, the iOS app was developed before iOS 8 was released and therefore the sharing options are limited to Facebook and Twitter. On Android however we have a share button that uses the Android share sheet to expose more sharing options - really whatever the user has installed.
-
-

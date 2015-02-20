@@ -2,6 +2,11 @@
 author_id: 2
 title: Hello World. Hello Add Jam.
 description: Welcome to Add Jam. We produce quality products for mobile. This post kicks off our blogging on our newly launched website.
+tags:
+  - Add Jam
+  - Business
+  - Announcement
+  - Launch
 ---
 
 Today is a big day for the Add Jam team as we put live our glorious new site. Designed and built entirely in house, Chris and I will be sharing the process we went through to design the site and details on the stack we used for building it. These posts will be up in the coming weeks but for now let me give you a tour of the site.
