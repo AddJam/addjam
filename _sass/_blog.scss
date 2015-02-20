@@ -141,7 +141,7 @@
         color: #ff5371;
     }
 
-    p, ul, h2, h3, h4, h5, pre, {
+    p, ul, h2, h3, h4, h5, pre, div {
         display: block;
         margin: 20px auto;
     }
@@ -257,4 +257,26 @@
 
 .empty {
     text-align: center;
+}
+
+.relatedPosts {
+  h2 {
+    padding-top: 40px;
+    border-top: 1px solid $separator-color;
+  }
+
+  ul {
+    padding-left: 0;
+  }
+
+  li {
+    list-style-type: none;
+    margin: 10px 0;
+
+    p {
+      width: 100% !important;
+      border-left: 5px solid $separator-color;
+      padding-left: 20px;
+    }
+  }
 }
