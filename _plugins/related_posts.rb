@@ -6,14 +6,23 @@ module Jekyll
       @amount = text.to_i
     end
 
+    def normalize_tags(tags)
+      tags.map do |tag|
+        tag.downcase.gsub(' ', '')
+      end
+    end
+
     def render(context)
       post = context['page']
+      post_tags = normalize_tags(post['tags'])
+
       other_posts = context['site']['posts'].select do |other_post|
         other_post['title'] != post['title']
       end
 
       sorted_posts = other_posts.sort do |other_post|
-        (other_post['tags'] - post['tags']).count
+        other_tags = normalize_tags(other_post['tags'])
+        (other_tags - post_tags).count
       end
 
       closest = sorted_posts[0..(@amount - 1)]
