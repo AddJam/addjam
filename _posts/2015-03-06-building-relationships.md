@@ -13,7 +13,7 @@ I don't think it is. Business is built on relationships.
 
 ##Where to Start
 
-![Building a relationship](/images/blog/building-relationships.png "Building a relationship")
+{% image alt:"Building a relationship" src:"/images/blog/building-relationships.png" title:"Building a relationship" %}
 
 My response to the internship inquiry is copied above. I truly believe taking the time to establish and build relationships is more important than sending emails out en-mass. But it sure isn't easy to do it, so where do you start?
 

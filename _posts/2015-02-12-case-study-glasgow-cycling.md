@@ -28,7 +28,7 @@ At Add Jam we believe in the Lean Startup methodology and mindset. We aim to get
 
 With this ethos, a stack of assumptions, and some initial requirements gathering, we created an API (using Ruby on Rails) and an iOS app to track, search and find routes in 4 weeks. Sure, V1 certainly wasn't pretty, but it was functional.
 
-![Glasgow Cycling V1](/images/blog/cycling-app-v1.png "Glasgow Cycling V1")
+{% image alt:"Glasgow Cycling V1" src:"/images/blog/cycling-app-v1.png" title:"Glasgow Cycling V1" %}
 
 It was an invaluable step. It allowed us to learn - live from users and stakeholders in the council. We found issues with the data we were gathering, we found bottle necks in performance, we streamlined the route tracking UI and we improved the product immeasurably.
 

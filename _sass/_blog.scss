@@ -187,9 +187,14 @@
         margin-top: 50px;
     }
 
-    img {
-        max-width: 120%;
-        margin-left: -10%;
+    .image {
+      width: 60%;
+      margin: 20px auto;
+
+      img {
+        max-width: 100%;
+        margin: 0 auto;
+      }
     }
 
     .date, .author {

@@ -10,7 +10,7 @@ tags:
 Over the past year we've worked hard at finding services that complement our ways of working that are effective and most importantly stick. It's common knowledge that services can have all the functionality in the world but if they don't fit into a workflow or way of working it's wasted effort. Here's a summary of the key services we use as a team.
 
 ##[Slack](https://slack.com/r/0298upfq-02986d27 "Slack referral")
-![Slack](/images/blog/slack-logo.png "Slack logo")
+{% image alt:"Slack" src:"/images/blog/slack-logo.png" title:"Slack logo" %}
 
 The number one tool for Add Jam without a doubt is the excellent Slack. I was skeptical at first, we had tried to adopt similar services in the past (gitter which integrates with Github was a good example) but Slack stuck.
 
@@ -27,7 +27,7 @@ Slack allows us to invite external collaborators and clients into our channels. 
 These channels are then hooked up to other services giving clients the same visibility on the project as the Add Jam team.  
 
 ##[Github](https://github.com "GitHub homepage")
-![Github](/images/blog/github-logo.png "GitHub logo")
+{% image alt:"Github" src:"/images/blog/github-logo.png" title:"GitHub logo" %}
 
 Remote repositories right? Well yeah, but it's also so much more.
 
@@ -44,7 +44,7 @@ We also use Github pages to host simple single page projects where applicable (s
 Another really handy feature we use on Github is Wiki's. For Add Jam a Github Wiki serves as an internal knowledge base. Here we keep a log of devices available to Add Jam, services we use and why, a reading list and a place to keep company copy and logos. All basic information but to have it centralised and accessible is really valuable to the team as is (Chris and I) but will become even more useful as Add Jam expands.
 
 ##[Trello](http://trello.com "Trello homepage")
-![Trello](/images/blog/trello-logo.png "Trello logo")
+{% image alt:"Trello" src:"/images/blog/trello-logo.png" title:"Trello logo" %}
 
 Project Management tools are two a penny and so many organisations have a preference for their own service. We find Trello the best for Add Jam.
 
@@ -65,7 +65,7 @@ Here we list goals and tasks for 'This Week', 'This Month', '6 Months' and '12 M
 We also have an 'Icebox' where we stick ideas and projects that would be good to do \*someday\*. This layout allows us to say 'no' and keep focus on what's important, what is on the board.
 
 ##[Dropbox](http://dropbox.com dropbox "homepage")
-![Dropbox](/images/blog/dropbox-logo.png "Dropbox logo")
+{% image alt:"Dropbox" src:"/images/blog/dropbox-logo.png" title:"Dropbox logo" %}
 
 It's the best in the game at the moment. We have Google Drive, One Drive, iCloud Drive and Box accounts but Dropbox just 'fits' for Add Jam.
 

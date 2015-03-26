@@ -14,7 +14,7 @@ Over the past year we've started many new rails projects. Each time we would exp
 
 We recently decided to build on this by creating a Rails template tailored to our needs (cleverly named the 'Jam Jar'). Using this template means that new rails projects will start tailored to our workflow.
 
-![Jam Jar](/images/blog/jamjar.png "Jam Jar Logo")
+{% image src:"/images/blog/jamjar.png" alt:"Jam Jar" title:"Jam Jar Logo" %}
 
 The Jam Jar is still very much a work in progress and we'll be talking about it more in a future post. Below are some of the gems we love the most. I skipped out the more obvious ones like `rspec` or `factory_girls` but you can have a look at the full list on [Github](https://github.com/AddJam/jamjar). It would be really interesting to hear which gems you think we missed or disagree with, we're [@add_jam](https://twitter.com/add_jam) on Twitter.
 
