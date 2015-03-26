@@ -280,3 +280,8 @@
     }
   }
 }
+
+.pagination {
+  @include span-columns(12 of 12);
+  text-align: center;
+}
