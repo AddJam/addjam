@@ -159,15 +159,17 @@
     }
 
     video {
-        width: 100%;
+        max-width: 60%;
         text-align: center;
+        margin: 0 auto;
+        display: block;
 
         @include media($tablet) {
-            width: 75%;
+            max-width: 75%;
         }
 
         @include media($mobile) {
-            width: 83.33%;
+            max-width: 100%;
         }
     }
 
