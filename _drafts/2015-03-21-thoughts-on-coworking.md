@@ -7,9 +7,9 @@ tags:
   - Business
   - Advice
 ---
-A month ago we moved into the gorgeous Fairfield Shipyard Offices in Govan. Or more specifically the RookieOven coworking space - the first dedicated coworking space for young tech businesses in Glasgow.
+Add Jam recently moved into the RookieOven coworking space - the first dedicated coworking space for young tech businesses in Glasgow. RookieOven is based in the gorgeous Fairfield Shipyard Offices in Govan. Built in 1888 to service one of the biggest and most successful shipyards in the world the building is utterly stunning after undergoing a  £6 million restoration. 
 
-To celebrate our first month we thought it would be worthwhile to summarise our experience in the space so far.
+We thought it would be worthwhile summarising our experience in the space so far.
 
 ![RookieOven](/images/blog/rookieoven-chris.jpg "Rookieoven")
 
@@ -21,17 +21,24 @@ Working on a daily basis with some of the most talented design, development and 
 
 Take for example John Hamelink of FarmGeek. Talking openly about development practices and tools used Add Jam have put in place several changes to make us work better as a team.
 
+The space has also played host to several events like Growth Glasgow. These have brought in tech talent into the space and our working environment. Giving Add Jam direct contact with potential clients, partners and talent. Most recently Growth Glasgow gave us a platform to share.
 
 ##Creating Value For Others
 
-We've found it important not to be selfish. That means giving back to our peers around us. It can be something simple like taking 5 mins to proof read  some content or it takes the form of 30 mins sitting down to help someone work through a problem. 
+I've think it's important not to be selfish. That means giving back to our peers around us. It can be something simple like taking 5 mins to proof read  some content or it takes the form of 30 mins sitting down to help someone work through a problem. 
 
-It does takes time but on the whole a worthwhile experience.
+It does takes time but on the whole a worthwhile experience. Firstly it allows us to observe others and learn from having a peek at their ways of working and processes. Secondly, sharing knowledge with our peers is an embodiment of the famous Einstein quote, "If you can't explain it simply, you don't understand it well enough". It helps us up our game.
 
-##What's still to come
+##There's more still to come
 
-There's big plans for the community we're part of. We want this to become a key resource for the local tech community and something that puts Glasgow on the map as a producer of tech products and talent.
+It's early days for RookieOven. When we moved in day one there was only the homemade desks and cobbled together chairs. In the short time we've been here the space has grown an astonishing amount. 
 
-##How to get involved
+We now have games consoles, TV's, bean bags and a fridge packed with beer. All the things you would expect from a tech coworking space but most importantly is the people we have alongside us. From 5 to 16 in a little over a month and all of them working in diverse areas with differing backgrounds and talents. 
+
+Having such diversity is hugely beneficial to Add Jam and it's exciting to think the space is just over 30% capacity.
+
+##Get involved
+
+There's big plans for this community we're part of. We want this to become a key resource for the local tech community and something that puts Glasgow on the map as a producer of tech products and talent.
 
 To get involved in the coworking space drop Michael a message.
