@@ -7,37 +7,27 @@ tags:
   - Apple
   - Watch
 ---
-Apple Watch is nearly upon us. Preorders start on the 10th of April with the watch launched on the 24th. The Add Jam team can't wait to get the device and we've been talking about possible use cases and scenarios the watch will come in handy. Here are our top 5 things we want to see on the Apple Watch.
-
-##Siri put the kettle on
-Home automation is going to be huge. The internet of things is going to have a massive impact our lives in the coming years and nowhere more so than the home.
-
-Having access to our personal assistant, Siri, on our wrists is going to open up new and more acceesible ways to interact with our homes. That could be putting the kettle on as you walk downstairs, changing the Hue lighting to set the mood or asking Siri to turn the heating up on a cold winter night.
+Apple Watch is nearly upon us. Preorders start on the 10th of April with the watch launched on the 24th. The Add Jam team can't wait to get the device and we've been talking about possible use cases and scenarios the watch will come in handy. Here are our top 5 apps we're looking forward to using on the Apple Watch.
 
 ##There's no such thing as bad weather
-The Add Jam team are huge fans of Dark Skies on iOS and the Forecast.io API that powers it - we do live in a very rainy Glasgow after all.
+The Add Jam team are huge fans of Dark Sky on iOS and the Forecast.io API that powers it - we do live in a very rainy Glasgow after all.
 
 The Dark Sky notification centre widget has been a mainstay on our phones since the introduction of iOS8 and having this on our wrists in glancable form will be massive.
 
 No more being caught short in the rain, hopefully.
 
-##I'm not on day release, honest
-Both Chris and I have worn activity trackers over the past few years, myself a Misfit Shine and Chris a Jawbone. Neither of us are currently wearing them. We both do wear a watch, mainly as a fashion statement.
+##Check me in Scotty
+We're big fans of Swarm (formerly known as Foursquare). Checking into restrants and bars gives visibility to nearby friends giving the chance for impormptu meetups.
 
-With the Jawbone and espescially the Misfit it was all too common to be asked if it was a prisoners tag or toy on your wrist. Not exactly the look we go for.
+But the biggest value is it builds up the Foursquare database which is an incredible way to uncover new places even in your home city. Knowning where the locals go is the best way to find the best places to go in a city. So we really like the Foursquare ethos and try our best to check into places we frequent and like.
 
-With the Apple Watch, Apple are clearly trying to address this issue by having an array of strap and material choices. Chris and I are looking at getting a watch that suits out tastes, both unique.
+Problem is remembering to do it. This could be solved with a glance.
 
-##The ultimate health kick
-With the Apple Watch being something we're not ashamed to wear hopefully we'll get more acurate and beneficial health data.
+##Paying with a flick of the wrist
+Apple Pay is yet to come to Scotland on the iPhone let alone the Watch but we expect the watch to give the painless, simple payments the future has been promising us.
 
-The reminders for when you've been inactive for too long is genius. As develpers its all too easy to lose youself in work and be far too inactive.
+A lot of people will be thinking 'big deal' but a simple use case hit home the power of this feature.
 
-Add in more ways to monotor health (heart rate monitoring) and the tight integration with HealthKit (already used by the likes of Withing, MyFitnessPal and Strava). The Apple Watch should give us a clearer picture on how we treat our bodies and what we could be doing to improve.
+Taking a trip across our native Glasgow you would use Scotrail for the railways, FirstBus for the buses and SPT for the subway. There's no cohesive payment option across the board - train vending machine don't take cash, buses only take cash and the subway now has their own smart card implmentation. Surely this could be easier unified under a flick of the wrist. 
 
-##Telling the time
-It's an obvious one really but it seems to be lost in all the ecitement and possibilities of what the Apple Watch can or could (and maybe can't) do. The Apple Watch opens new possibilites on how we tell the time.
-
-Apple has already demoed how configurable the watch face will be. Do you want to see the phase of the moon or maybe the time for sunrise. It's a personal experience we haven't really been able to do on a watch before.
-
-So what do you want from the Apple Watch? Or maybe its the Pebble Time you think is the future of wrist worn wearable? Maybe neither. Appreciate your thoughts on this as we look to make products in this area.
+Or even look at London you have the Oyster Card, undoubtedly a big step over what we have in Glasgow, but you still need to reach for a card in your wallet. Yeah it's a first world problem, but it's still a problem if you're travelling with kids or have a handful of shopping bags. Waving your watch over the payment terminal is more natural, quicker, easier and more convienient.
