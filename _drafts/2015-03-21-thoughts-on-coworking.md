@@ -7,21 +7,23 @@ tags:
   - Business
   - Advice
 ---
-Add Jam recently moved into the RookieOven coworking space - the first dedicated coworking space for young tech businesses in Glasgow. RookieOven is based in the gorgeous Fairfield Shipyard Offices in Govan. Built in 1888 to service one of the biggest and most successful shipyards in the world the building is utterly stunning after undergoing a  £6 million restoration. 
+Add Jam recently moved into the RookieOven coworking space - the first dedicated coworking space in Glasgow for young tech businesses. RookieOven is based in the gorgeous Fairfield Shipyard Offices in Govan. Built in 1888 to service one of the biggest and most successful shipyards in the world the building is utterly stunning and after undergoing a £6 million restoration is the perfect home for Glasgows tech community. 
 
-We thought it would be worthwhile summarising our experience in the space so far.
+Although we haven't been in space for long we thought it would be worthwhile summarising our experiences so far.
 
 ![RookieOven](/images/blog/rookieoven-chris.jpg "Rookieoven")
 
 ##Huge Benefits
 
-Its safe to say working in this environment has been transformational for Add Jam.
+Its safe to say joining the coworking space and working in this environment has been transformational for Add Jam.
 
 Working on a daily basis with some of the most talented design, development and marketing talent in the city has pushed us further and opened our eyes to new ways of thinking and working.
 
-Take for example John Hamelink of FarmGeek. Talking openly about development practices and tools used Add Jam have put in place several changes to make us work better as a team.
+Take for example John Hamelink of FarmGeek. We talk openly about development practices and tools used in the product development process. in his business has improved how Add Jam as a team work. have put in place several changes to make us work better as a team.
 
-The space has also played host to several events like Growth Glasgow. These have brought in tech talent into the space and our working environment. Giving Add Jam direct contact with potential clients, partners and talent. Most recently Growth Glasgow gave us a platform to share.
+The space has also played host to several events like Growth Glasgow. These have brought in tech talent and come interesting businesses into the space. This gives Add Jam direct contact with potential clients, partners and talent.
+
+Most recently Growth Glasgow gave us a platform to share some of our learnings from lol2048. 
 
 ##Creating Value For Others
 
@@ -41,4 +43,4 @@ Having such diversity is hugely beneficial to Add Jam and it's exciting to think
 
 There's big plans for this community we're part of. We want this to become a key resource for the local tech community and something that puts Glasgow on the map as a producer of tech products and talent.
 
-To get involved in the coworking space drop Michael a message.
+To get involved in the coworking space or make use of it drop Michael a message.

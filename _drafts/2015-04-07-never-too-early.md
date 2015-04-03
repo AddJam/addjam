@@ -1,7 +1,7 @@
 ---
 author_id: 2
 title: Never too early to get Advice
-description: 'Stealth mode' is a load of rubbish. It's never too early to get advice. Talk to everyone and anyone about your idea.
+description: Stealth mode is a load of rubbish. It's never too early to get advice. Talk to everyone and anyone about your idea.
 tags:
   - Add Jam
   - Business
@@ -11,7 +11,7 @@ A bug bear of mine is 'stealth mode'. I can understand why people do it, you com
 
 Best keep it all secret then! Well in reality that's flawed thinking.
 
-![The winklevoss twins](/images/blog/winklevoss.png "The winklevoss twins from Social Network")
+{% image src:"/images/blog/winklevoss.png" alt:"The winklevoss twins" title:"The winklevoss twins from Social Network" %}
 
 ##Why should I share?
 
@@ -39,7 +39,7 @@ This leads to another point - having your idea stolen can be a good thing.
 
 ##I would want someone to copy me
 
-![Say whaaaat?](/images/blog/say-what.gif "Say what?")
+{% image src:"/images/blog/say-what.gif" alt:"Say what?" title:"Say whaaaat?" %}
 
 Yip. I'd want someone to copy me. For a few reasons.
 
