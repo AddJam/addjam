@@ -25,9 +25,9 @@ So if feedback is important why dont people share?
 
 ##If it's that easy to steal is it worth doing?
 
-One of the most common complaints against sharing ideas is 'someone will steal it'. My thoughts on this are pretty simple. If it's that easy to steal is it worth doing?
+One of the most common complaints against haring ideas is 'someone will steal it'. My thoughts on this are pretty simple. If it's that easy to steal is it worth doing?
 
-There's a tonne of reasons for saying this. Most obvious one being that if your idea is that easy to copy then as soon as you come out of stealth mode and launch it will be cloned anyway. And what did you gain - first mover advantage for a week or two? But you potentially lost how long developing the idea?
+There's a tonne of reasons for saying this. Most obvious one being that if your idea is that easy to copy then as soon as you come out of stealth mode and launch it will be cloned anyway. And what did you gain - first mover advantage for a week or two? But you potnetially lost how long developing the idea?
 
 More than that idea's are worthless, executing is everything. 
 
@@ -35,7 +35,7 @@ Everyone has ideas. From kids in primary school to pensioners in a care home. So
 
 A product is derived from your execution of an idea. From the design and development through to marketing, sales and customer service. Your ability to take an idea and execute on it is what sets it apart. It's not the concept in of itself as it's pretty much guaranteed someone somewhere will be working on something similar if not better.
 
-This leads to another point - having your idea stolen will probably happen anyway but this is a good thing.
+This leads to another point - having your idea stolen will probarbly happen anyway but this is a good thing.
 
 ##I would want someone to copy me
 
@@ -51,11 +51,11 @@ Then even if they do copy the idea and execute better than you then hopefully yo
 
 ##Execution is everything
 
-Basically everything you've read so far in this post I could have summed up in 3 words: 'execution is everything'.
+Basically everything you've read so far in this post I could of summed up in 3 words: 'execution is everything'.
 
 Take the example from the image at the top of this post - do you really think the Winkloss twins would have been able to grow Facebook to size it is now? The ability for Zuckerburg and his team to developer, scale, sell and market Facebook set them apart from the many other social networks.
 
-And that lesson is repeatable. How many search engines are out there and which one do you use? The one that had the idea first (AltaVista anyone?) or Google like the rest of the world.
+And that lesson is repeatable. How many search engines are out there and which one do you us? The one that had the idea firts or Google like the rest of the world.
 
 ##Tear up the NDA and get out there
 
