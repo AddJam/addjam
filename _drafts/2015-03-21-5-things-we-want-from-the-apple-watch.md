@@ -1,13 +1,15 @@
 ---
 author_id: 1
-title: 5 Things we Want from The Apple Watch
-description: Apple Watch is nearly upon us. Here are 5 things we want to see on the device.
+title: Top 5 Apps for the Apple Watch
+description: Apple Watch is upon us. Here are our 5 favourite apps from our first weekend with the device.
 tags:
   - Mobile
   - Apple
   - Watch
 ---
-Apple Watch is nearly upon us. Preorders start on the 10th of April with the watch launched on the 24th. The Add Jam team can't wait to get the device and we've been talking about possible use cases and scenarios the watch will come in handy. Here are our top 5 apps we're looking forward to using on the Apple Watch.
+Apple Watch is upon us. From September last year we've been eagerly anticipating the Apple Watch as we can see huge benefit in how it allows us to interact with not only services closely tied into modern living but also the world around us.
+
+The Add Jam team recieved their watches on launch day and have been trying them out over the past weekend. Here are our top 5 apps we've been using and how we've felt they've been benefical to us.
 
 ##There's no such thing as bad weather
 The Add Jam team are huge fans of Dark Sky on iOS and the Forecast.io API that powers it - we do live in a very rainy Glasgow after all.
