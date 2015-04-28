@@ -1,9 +1,8 @@
 module Jekyll
-  class SimilarPosts < Liquid::Tag
-
-    def initialize(tag_name, text, tokens)
+  class RelatedBlogPosts < Liquid::Tag
+    def initialize(tag_name, params, tokens)
       super
-      @amount = text.to_i
+      @amount = params.to_i
     end
 
     def normalize_tags(tags)
@@ -38,4 +37,4 @@ module Jekyll
   end
 end
 
-Liquid::Template.register_tag('related_posts', Jekyll::SimilarPosts)
+Liquid::Template.register_tag('related_posts', Jekyll::RelatedBlogPosts)
