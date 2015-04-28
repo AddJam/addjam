@@ -1,40 +1,40 @@
 <footer class="footer">
-	<div class="links">
-		<div class="column">
-			<h3>PRODUCTS</h3>
-			<ul class="list">
-				<li><a href="{{ site.data.links.case-studies }}">Client Case Studies</a></li>
-				<li><a href="{{ site.data.links.products }}">Our Creations</a></li>
-				<li><a href="{{ site.data.links.github }}">Open Source</a></li>
-			</ul>
-		</div>
-		<div class="column">
-			<h3>CONTENT</h3>
-			<ul class="list">
-				<li><a href="{{ site.data.links.about }}">About</a></li>
-				<li><a href="{{ site.data.links.dashboard }}">Dashboard</a></li>
-				<li><a href="{{ site.data.links.blog }}">Blog</a></li>
-			</ul>
-		</div>
-		<div class="column">
-			<h3>PEOPLE</h3>
-			<ul class="list">
-				<li><a href="#team">Chris</a></li>
-				<li><a href="#team">Michael</a></li>
-				<li><a href="mailto:{{ site.email }}?subject=I'd like to work with you!">Join Us</a></li>
-			</ul>
-		</div>
-		<div class="column">
-			<h3>CONTACT</h3>
-			<ul class="list">
-				<li><a href="{{ site.data.links.hire-us }}">Hire Us</a></li>
-				<li><a href="mailto:{{ site.email }}?subject=Yo!">{{ site.email }}</a></li>
-			</ul>
-		</div>
-	</div>
-	<div class="copyright">
-	 	{{ site.title }} &#169 {{site.time | date: "%Y"}}
-  	</div>
+<div class="links">
+  <div class="column">
+    <h3>PRODUCTS</h3>
+    <ul class="list">
+      <li><a href="{{ site.data.links.case-studies }}">Client Case Studies</a></li>
+      <li><a href="{{ site.data.links.products }}">Our Creations</a></li>
+      <li><a href="{{ site.data.links.github }}">Open Source</a></li>
+    </ul>
+  </div>
+  <div class="column">
+    <h3>CONTENT</h3>
+    <ul class="list">
+      <li><a href="{{ site.data.links.about }}">About</a></li>
+      <li><a href="{{ site.data.links.dashboard }}">Dashboard</a></li>
+      <li><a href="{{ site.data.links.blog }}">Blog</a></li>
+    </ul>
+  </div>
+  <div class="column">
+    <h3>PEOPLE</h3>
+    <ul class="list">
+      <li><a href="/#team">Chris</a></li>
+      <li><a href="/#team">Michael</a></li>
+      <li><a href="mailto:{{ site.email }}?subject=I'd like to work with you!">Join Us</a></li>
+    </ul>
+  </div>
+  <div class="column">
+    <h3>CONTACT</h3>
+    <ul class="list">
+      <li><a href="{{ site.data.links.hire-us }}">Hire Us</a></li>
+      <li><a href="mailto:{{ site.email }}?subject=Yo!">{{ site.email }}</a></li>
+    </ul>
+  </div>
+</div>
+<div class="copyright">
+  {{ site.title }} &#169 {{site.time | date: "%Y"}}
+</div>
 </footer>
 
 <!-- JS -->
