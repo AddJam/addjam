@@ -6,3 +6,5 @@ _site/
 
 .DS_Store
 .env
+
+.divshot-cache/
