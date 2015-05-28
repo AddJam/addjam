@@ -8,7 +8,7 @@ tags:
   - Android
 ---
  
-Tonight we're hosting a Google I/O 1015 Extended event in our office. We're having a Keynote Livestream - we have the beers, we have cake and we have the screen setup. All we need now is the keynote to start.
+Tonight we're hosting a Google I/O 2015 Extended event in our office. We're having a Keynote Livestream - we have the beers, we have cake and we have the screen setup. All we need now is the keynote to start.
 
 {% image src:"/images/blog/google-io-2015.png" alt:"Google IO 2015 Extended in Glasgow" title:"Google IO 2015 Extended in Glasgow" %}
 
@@ -36,4 +36,4 @@ With so many manufacturers taking a stab at what they think a wearable should lo
 ##Google X
 In 2012 we had the spectaular arrival of Google Glass. I wonder if this year we will see self Driving Cars come out of Google X. Or will it be something about the home - Tony Fadell and Nest have been very quiet. Perhaps it will be something autonomous that isnt a car - Boston Dynamics Big Dog for the home?
 
-What do you expect of #io15 ? And where are you watching it? Feel free to join us in Glasgow - https://plus.google.com/events/cgri5qldjgem1aehs2d171813lc﻿
+What do you expect of #io15 ? And where are you watching it? Feel free to join us in Glasgow - https://plus.google.com/events/cgri5qldjgem1aehs2d171813lc
