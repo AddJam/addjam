@@ -25,7 +25,7 @@ He did however hit a stumbling block when it came to boarding. Firstly the scann
 
 Initially the concept of maps on your wrist was wasted on me. Surely nobody would want to use a postage stamp size screen on their wrist to scroll around a map when they have their phone on them. How wrong I was. I didn't understand the true use case.
 
-Apple Watch Maps came in super useful while on my break to Rome. I found navigating the tight cobbled streets of the city to be a breeze with maps on Apple Watch. Setting a destination on my phone I was given a gentle tap when I came to a turn and a nice big, easy to understand arrow on my wrist. I'm now a Apple Watch navigation convert.
+Apple Watch Maps came in super useful while on my break to Rome. I found navigating the tight cobbled streets of the city to be a breeze with maps on Apple Watch. Setting a destination on my phone I was given a gentle tap when I came to a turn and a nice big, easy to understand arrow on my wrist. I'm now an Apple Watch navigation convert.
 
 Maps isn't for browsing, it's for getting you places.
 
