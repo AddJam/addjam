@@ -168,7 +168,6 @@
 
 		.button {
 			margin-right: 40px;
-			text-transform: uppercase;
 
 			@include media($mobile) {
 				@include span-columns(8 of 12);
@@ -212,7 +211,6 @@
 
 		.button {
 			margin-right: 40px;
-			text-transform: uppercase;
 
 			@include media($mobile) {
 				@include span-columns(8 of 12);
