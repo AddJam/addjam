@@ -95,9 +95,9 @@ h3 {
 
 .button {
 	display: inline-block;
-	border: 2px solid $dark-color;
-	border-radius: 6px;
-	padding: 15px 20px;
+	border: 1px solid $dark-color;
+	border-radius: 4px;
+	padding: 15px 45px;
 	color: $dark-color;
 }
 
@@ -124,8 +124,8 @@ h3 {
   position: absolute;
   top: 20px;
   right: 30px;
-  font-size: 1.4em;
-  padding: 7px 13px;
+  font-size: 1.0em;
+  padding: 15px 45px;
 
   @include media($mobile) {
     font-size: 1.4em;
