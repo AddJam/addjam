@@ -128,7 +128,8 @@ h3 {
   padding: 15px 45px;
 
   @include media($mobile) {
-    font-size: 1.4em;
+    font-size: 0.8em;
+    right: 15px;
   }
 }
 
@@ -198,5 +199,10 @@ footer {
     text-align: center;
     color: white;
     margin-bottom: 25px;
+
+    @include media($mobile) {
+      @include span-columns(6 of 12);
+      @include shift(3);
+    }
   }
 }
