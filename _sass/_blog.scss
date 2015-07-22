@@ -208,6 +208,19 @@
       }
     }
 
+    .youtube {
+      width: 60%;
+      margin: 20px auto;
+
+      @include media($tablet) {
+        width: 90%;
+      }
+
+      @include media($mobile) {
+        width: 100%;
+      }
+    }
+
     .date, .author {
         text-align: center;
         width: 100%;
