@@ -108,7 +108,7 @@
   background: url(/images/doors-open-day-fairfield.jpg) no-repeat center center fixed;
   height: 60%;
 }
-.section {
+.case-detail {
   @include span-columns(8 of 12);
   @include shift(2);
   color: $dark-color;
