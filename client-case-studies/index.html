@@ -5,20 +5,21 @@ title: Client Case Studies
 <div class="client-case-studies">
 	{% for project in site.data.clients %}
 		<div class="case-study">
-			<h2 class="title">{{ project.name }}</h2>
-			<img src="/images/{{project.logo}}" class="logo"/>
-			<p class="description">{{ project.description }}</p>
-			<ul class="links">
+			<a href="{{ project.case-study-url }}">
+				<img class="image" src="{{ project.banner }}">
+				<img class="image" src="{{ project.image }}">
+			</a>
+			<div class="download-links">
 				{% if project.url %}
-					<li><a href="{{ project.url }}"><img src="/images/web-icon.svg"> Homepage</a></li>
+					<a href="{{ project.url }}" class="button">Homepage</a>
 				{% endif %}
 				{% if project.itunes %}
-					<li><a href="{{ project.itunes }}"><img src="/images/itunes-icon.svg"> iTunes App Store</a></li>
+					<a href="{{ project.itunes }}" class="button">App Store</a>
 				{% endif %}
 				{% if project.play %}
-					<li><a href="{{ project.play }}"><img src="/images/android-icon.svg"> Google Play Store</a></li>
+					<a href="{{ project.play }}" class="button">Play Store</a>
 				{% endif %}
-			</ul>
+			</div>
 		</div>
 	{% endfor %}
 </div>

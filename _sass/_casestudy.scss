@@ -1,0 +1,215 @@
+.vert-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: $light-color;
+  height: 400px;
+  display: table;
+  width: 100%;
+
+  .text {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    h2 {
+      line-height: 2.1em;
+      font-size: 1.9em;
+    }
+
+    h3 {
+      line-height: 1.8em;
+      font-size: 1.6em;
+    }
+
+    @include media($mobile) {
+      vertical-align: middle;
+      font-size: 1.4em;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+
+    img {
+      margin: 14px auto;
+      width: 120px;
+    }
+  }
+  a:link, a:visited {
+    color: $light-color;
+  }
+  a:hover {
+    color: #f6f6f6;
+  }
+}
+
+.header-img {
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header-img:before {
+  content: "";
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0,0,0,0.35);
+}
+
+.walking-header-img {
+  background: url(/images/glasgow-walking-top.jpg) no-repeat center center fixed;
+}
+
+.walking-admin-img {
+  background: url(/images/glasgow-walking-admin.jpg) no-repeat center center fixed;
+  height: 60%;
+}
+
+.walking-mobile-img {
+  background: url(/images/glasgow-walking-mobile.jpg) no-repeat center center fixed;
+  height: 60%;
+}
+
+.cycling-header-img {
+  background: url(/images/glasgow-cycling-top.jpg) no-repeat center center fixed;
+}
+
+.cycling-v1-img {
+  background: url(/images/glasgow-cycling-v1.jpg) no-repeat center center fixed;
+  height: 60%;
+}
+
+.cycling-dashboard-img {
+  background: url(/images/glasgow-cycling-dashboard.jpg) no-repeat center center fixed;
+  height: 60%;
+}
+
+.cycling-mobile-img {
+  background: url(/images/glasgow-cycling-mobile.jpg) no-repeat center center fixed;
+  height: 60%;
+}
+
+.doors-open-day-header-img {
+  background: url(/images/doors-open-day-top.jpg) no-repeat center center fixed;
+}
+
+.doors-open-day-fairfield-img {
+  background: url(/images/doors-open-day-fairfield.jpg) no-repeat center center fixed;
+  height: 60%;
+}
+.section {
+  @include span-columns(8 of 12);
+  @include shift(2);
+  color: $dark-color;
+  margin-top: 18px;
+  margin-bottom: 22px;
+
+  @include media($mobile) {
+    @include span-columns(10 of 12);
+    @include shift(1);
+    font-size: 1.1em;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  @include media($tablet) {
+    @include span-columns(8 of 12);
+    @include shift(2);
+    font-size: 1.1em;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  h3 {
+    font-size: 1.4em;
+    line-height: 1.6em;
+    text-align: center;
+
+    @include media($mobile) {
+      font-size: 0.9em;
+      line-height: 1.1em;
+    }
+
+    @include media($tablet) {
+      font-size: 1.0em;
+      line-height: 1.1em;
+    }
+  }
+
+  h2 {
+    font-size: 1.9em;
+    line-height: 1.9em;
+    text-align: center;
+    margin-bottom: 12px;
+
+    @include media($mobile) {
+      line-height: 1.7em;
+      font-size: 1.3em;
+    }
+
+    @include media($tablet) {
+      font-size: 1.8em;
+    }
+  }
+
+  p {
+    @include span-columns(10 of 12);
+    @include shift(1);
+    font-size: 1.1em;
+    line-height: 1.6em;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+
+    @include media($mobile) {
+      font-size: 0.8em;
+    }
+
+    @include media($tablet) {
+      font-size: 1.1em;
+    }
+  }
+
+  img {
+    @include span-columns(8 of 12);
+    @include shift(2);
+
+    @include media($mobile) {
+      @include span-columns(12 of 12);
+      @include shift(0);
+    }
+  }
+}
+
+.download-links {
+  margin: 20px auto;
+  text-align: center;
+
+  .button {
+    margin-right: 40px;
+
+    @include media($mobile) {
+      @include span-columns(8 of 12);
+      @include shift(2);
+      margin-bottom: 15px;
+    }
+  }
+
+  .button:last-child {
+    margin-right: 0;
+
+    @include media($mobile) {
+      margin-bottom: 0;
+    }
+  }
+}
