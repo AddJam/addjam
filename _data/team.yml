@@ -1,7 +1,7 @@
 - name: Chris Sloey
   id: 1
   image: chris.png
-  description: The core of Add Jam is our team. Chris is the technical lead on our projects and has released apps on all major mobile platforms. Chris has also engineered large scale web applications using Ruby on Rails and Node.js. A fan of eSports, Chris produces the weekly League of Legends Newsletter.
+  description: The core of Add Jam is our team. Chris is the technical lead on our projects and has released apps on all major mobile platforms. Chris has also engineered large scale web applications using Ruby on Rails and Ember JS. A fan of eSports, Chris produces the weekly League of Legends Newsletter.
   twitter: chrisasaur
   email: chris@addjam.com
 
