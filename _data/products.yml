@@ -6,14 +6,14 @@
 - name: LoL Newsletter
   description: Keep up to date with League of Legends. Pro scene, game updates, gameplay videos and announcements. Free, weekly email and no spam.
   url: http://lolnewsletter.com
-  logo: lolnewsletter.png
-
-- name: Free Champions
-  description: Simple email service for League of Legends players. Get notified by email as soon as the League of Legends free champion rotation is available.
-  url: http://freechampions.com
-  logo: freechampions.png
+  logo: lolnewsletter.jpg
 
 - name: lol2048
   description: Hugely popular variant of the 2048 puzzle game. 20 million games played and counting - can you get the final tile?
   url: http://lol2048.com
   logo: lol2048.png
+
+- name: Mail Oven
+  description: Wanting to build an engaged community? Use Mail Oven to curate, manage and send email digests.
+  url: http://mailoven.com
+  logo: mailoven.jpg
