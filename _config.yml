@@ -5,7 +5,7 @@ email: yo@addjam.com
 url: "http://addjam.com"
 twitter_username: addjam
 github_username: addjam
-gems: [bourbon, neat, jekyll-sitemap]
+gems: [bourbon, neat, jekyll-sitemap, jekyll-minifier]
 paginate: 5
 paginate_path: "/blog/page:num"
 markdown: redcarpet
