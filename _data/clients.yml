@@ -1,4 +1,4 @@
-- name: Glasgow City Council
+- name: Glasgow Walking
   description: <p>Add Jam delivered mobile applications in the Active Travel stream of the £24 million Innovaet UK funded Future City project in our hometown of Glasgow. We developed Glasgow Walking for iOS and Android aimed at making information on city attractions easily accessible. </p><p>The Glasgow Walking app makes local heritage information easily accessible in the form of curated walks with the aim of getting citizens to tour their city and be more active.</p>
   itunes: https://itunes.apple.com/us/app/glasgow-walking/id930428468?mt=8
   play: https://play.google.com/store/apps/details?id=com.fcd.glasgowwalking
@@ -8,7 +8,7 @@
   banner: /images/glasgow-walking-header.png
   image: /images/glasgow-walking-top.jpg
 
-- name: Glasgow City Council
+- name: Glasgow Cycling
   description: <p>Our second product as part of the Active Travel stream in the Future City project is Glasgow Cycling. Native on iOS and Android with an open API (rails), Glasgow Cycling aims to provide detailed and more accurate data on the utilisation of Glasgows cycling infrastructure.</p><p>With iOS as our lead platform we used lean methodologies and principles to iterate on the product throughout 2014. We worked closely with various stakeholders to ensure the product was safe, useful and empowering to the citizens of Glasgow. Privacy was highlighted as a prime concern of all stakeholders, learning through our processes led us to trimming the start and end of all routes to ensure there is a 'fuzzy' privacy zone when routes are viewed and we implemented several security measure to ensure data is safe. The data accessible through the API is anonymised but provides useful information on the cycling habits of Glasgow citizens</p>
   itunes: https://itunes.apple.com/us/app/glasgow-cycling/id930422838?mt=8
   play: https://play.google.com/store/apps/details?id=com.fcd.glasgowcycling

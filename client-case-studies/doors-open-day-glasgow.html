@@ -2,6 +2,7 @@
 title: "Case Study | Doors Open Day Glasgow"
 layout: case
 ---
+{% assign client = site.data.clients | where: "name", "Doors Open Day Glasgow" | first %}
 <div class="header-img doors-open-day-header-img">
   <div class="vert-text">
      <div class ="text">
@@ -52,8 +53,7 @@ layout: case
   to suit the needs of Glasgow Building Preservation Trust.</p>
 
   <h3>Why not delve into Doors Open Day Glasgow</h3>
-  <div class ="download-links">
-    <a href="/" class="button">App Store</a>
-    <a href="/" class="button">Play Store</a>
+  <div class="download-links">
+    <a href="{{client.itunes}}" class="button">App Store</a>
   </div>
 </div>

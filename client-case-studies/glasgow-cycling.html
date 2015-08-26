@@ -2,6 +2,7 @@
 title: "Case Study | Glasgow Cycling"
 layout: case
 ---
+{% assign client = site.data.clients | where: "name", "Glasgow Cycling" | first %}
 <div class="header-img cycling-header-img">
   <div class="vert-text">
      <div class ="text">
@@ -121,8 +122,8 @@ layout: case
 
   <h3>Experience Glasgow Cycling for yourself</h3>
   <div class ="download-links">
-    <a href="http://glasgowcycling.com" class="button">Dashboard</a>
-    <a href="/" class="button">App Store</a>
-    <a href="/" class="button">Play Store</a>
+    <a href="{{client.url}}" class="button">Dashboard</a>
+    <a href="{{client.itunes}}" class="button">App Store</a>
+    <a href="{{client.play}}" class="button">Play Store</a>
   </div>
 </div>
