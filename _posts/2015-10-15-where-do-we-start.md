@@ -23,7 +23,7 @@ But I was wrong.
 
 {% image src:"/images/blog/star-wars-the-force-awakens.jpg" alt:"Star Wars The Force Awakens" title:"Star Wars The Force Awakens" %}
 
-The Star Wars geek in my was reading up on the new movie, The Force Awakens, by JJ Abrams when I came across this great fireside chat with Abrams, Jonathan Ive, Apple's Chief Design Officer, and with Brian Grazer asking the questions. One of the questions put to Ive is about the incubation of an idea and at the lowest level how he and Steve Jobs would develop ideas into products. His answer is way more profound than mine. Conversation.
+The Star Wars geek in me was reading up on the new movie, The Force Awakens, by JJ Abrams when I came across this great fireside chat with Abrams, Jonathan Ive, Apple's Chief Design Officer, and with Brian Grazer asking the questions. One of the questions put to Ive is about the incubation of an idea and at the lowest level how he and Steve Jobs would develop ideas into products. His answer is way more profound than mine. Conversation.
 
 Ive points out that before even reaching for a pen your ideas start with words. Speaking about the idea is so important and comes first, you build things with words. But the process is more than just speaking, you also have to listen and be careful of small details or as Ive calls it the "quiet voice" which can often be shouted out by the "loud voice".
 
