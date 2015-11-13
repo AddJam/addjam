@@ -19,4 +19,4 @@ defaults:
     values:
       layout: "blog-post"
 exclude:
-  - divshot.json
+  - firebase.json
