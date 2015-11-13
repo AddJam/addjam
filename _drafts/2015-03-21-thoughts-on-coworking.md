@@ -11,7 +11,7 @@ Add Jam recently moved into the RookieOven coworking space - the first dedicated
 
 Although we haven't been in space for long we thought it would be worthwhile summarising our experiences so far.
 
-![RookieOven](/images/blog/rookieoven-chris.jpg "Rookieoven")
+{% image src:"/images/blog/rookieoven-chris.jpg" alt:"Rookieoven " title:"Rookieoven" %}
 
 ##Huge Benefits
 

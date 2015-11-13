@@ -22,7 +22,7 @@ So really LoL2048 is a clone of a clone of a clone. Not the most original, not t
 
 This was simple - we deployed to GitHub pages. We submitted to the League of Legends subreddit ([r/leagueoflegends](http://reddit.com/r/leagueoflegends)). It went huge!
 
-![LoL 2048 visitor numbers](/images/blog/lol2048-overall.png "LoL 2048 visitor numbers")
+{% image src:"/images/blog/lol2048-overall.png" alt:"LoL 2048 visitor numbers" title:"LoL 2048 visitor numbers" %}
 
 As of today we have had over 3 million page views and 17 million games played in over 180 countries.
 
@@ -40,7 +40,7 @@ The site reached a peak of 273,999 sessions in a day and settled into a steady 1
 
 We now had a site that consistently had traffic. What do we do with it?
 
-![LoL 2048 visitor numbers](/images/blog/lol2048-consistent.png "LoL 2048 visitor numbers")
+{% image src:"/images/blog/lol2048-consistent.png" alt:"LoL 2048 visitor numbers" title:"LoL 2048 visitor numbers" %}
 
 Our first port of call was to convert visitors into subscribers of our weekly newsletter service. This worked ok, we had a huge amount of signups (~2000) but unfortunately only a portion of them went though the necessary double opt-in stage (~500).
 
